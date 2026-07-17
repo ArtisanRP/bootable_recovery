@@ -466,6 +466,8 @@ int main(int argc, char **argv) {
 			// Format the value based on the background updates
 			value = std::to_string(lastVal) + "%" + charging;
 			DataManager::SetValue("tw_battery", value);
+			DataManager::SetValue("tw_battery_level", std::to_string(lastVal));
+			DataManager::SetValue("tw_battery_charging", (charging == '+') ? "1" : "0");
 
 			// Sleep for a specified interval (e.g., 1 second) before checking again
 			std::this_thread::sleep_for(std::chrono::seconds(1));

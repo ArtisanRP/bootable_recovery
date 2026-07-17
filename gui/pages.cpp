@@ -52,6 +52,7 @@ extern "C" {
 #include "rapidxml.hpp"
 #include "objects.hpp"
 #include "blanktimer.hpp"
+#include "batterypill.hpp"
 
 #include "../variables.h"
 
@@ -473,6 +474,12 @@ bool Page::ProcessNode(xml_node<>* page, std::vector<xml_node<>*> *templates, in
 			mObjects.push_back(element);
 			mRenders.push_back(element);
 			mActions.push_back(element);
+		}
+		else if (type == "batterypill")
+		{
+			GUIBatteryPill* element = new GUIBatteryPill(child);
+			mObjects.push_back(element);
+			mRenders.push_back(element);
 		}
 		else if (type == "template")
 		{

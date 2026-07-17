@@ -68,6 +68,7 @@ cc_library_static {
         "keyboard.cpp",
         "input.cpp",
         "blanktimer.cpp",
+        "batterypill.cpp",
         "partitionlist.cpp",
         "mousecursor.cpp",
         "scrolllist.cpp",

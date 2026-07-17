@@ -296,17 +296,18 @@
 				<text>%tw_time%</text>
 			</text>
 
-			<text color="%text_color%">
+			<batterypill>
 				<conditions>
 					<condition var1="tw_no_battery_percent" var2="0"/>
 					<condition var1="tw_battery" op="&gt;" var2="0"/>
 					<condition var1="tw_battery" op="&lt;" var2="101"/>
-					<condition var1="tw_battery_pos_x" var2="0"/>
 				</conditions>
-				<font resource="font_m"/>
+				<font resource="font_s"/>
 				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
-				<text>{@battery_pct=Battery: %tw_battery%}</text>
-			</text>
+				<pillwidth>96</pillwidth>
+				<pillheight>24</pillheight>
+				<textscale>80</textscale>
+			</batterypill>
 
 			<!-- Custom position for status bar items if defined START -->
 
@@ -340,18 +341,6 @@
 				<font resource="font_m"/>
 				<placement x="%tw_clock_24_pos_x%" y="%row1_header_y%"/>
 				<text>%tw_time%</text>
-			</text>
-
-			<text color="%text_color%">
-				<conditions>
-					<condition var1="tw_no_battery_percent" var2="0"/>
-					<condition var1="tw_battery" op="&gt;" var2="0"/>
-					<condition var1="tw_battery" op="&lt;" var2="101"/>
-					<condition var1="tw_battery_pos_x" op="!=" var2="0"/>
-				</conditions>
-				<font resource="font_m"/>
-				<placement x="%tw_battery_pos_x%" y="%row1_header_y%"/>
-				<text>{@battery_pct=Battery: %tw_battery%}</text>
 			</text>
 
 			<!-- Custom position for status bar items if defined END -->
