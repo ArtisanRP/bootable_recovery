@@ -26,8 +26,8 @@
 		<string name="sdext">SD-EXT</string>
 		<string name="adopted_data">Prijaté dáta</string>
 		<string name="adopted_storage">Prijaté úložisko</string>
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_header">Artisan Recovery Project</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% °C</string>
 		<string name="battery_pct">Batéria: %tw_battery%</string>
 		<string name="sort_by_name">Zoradiť podľa názvu</string>
@@ -75,7 +75,7 @@
 		<string name="folder">Zložka:</string>
 		<string name="file">Súbor:</string>
 		<string name="zip_sig_chk">Overenie podpisu zip</string>
-		<string name="inject_twrp_chk">Nainštalovať TWRP po inštalácií</string>
+		<string name="inject_twrp_chk">Nainštalovať ArtisanRP po inštalácií</string>
 		<string name="options_hdr">Nastavenia</string>
 		<string name="confirm_flash_hdr">Potvrdiť inštaláciu</string>
 		<string name="zip_queue">Poradie:</string>
@@ -268,14 +268,14 @@
 		<string name="swipe_power_off_s">Vypnúť</string>
 		<string name="sys_ro_hdr">Nezmenená systémová partícia</string>
 		<string name="sys_ro_keep">Ponechať System v režime na čítanie?</string>
-		<string name="sys_rop1">TWRP môže ponechať systémovú partíciu nezmenenú</string>
+		<string name="sys_rop1">ArtisanRP môže ponechať systémovú partíciu nezmenenú</string>
 		<string name="sys_rop2">čo zjednoduší inštaláciu oficiálnych aktualizácií.</string>
-		<string name="sys_rop3">TWRP sa nezabráni oficiálnej ROM</string>
-		<string name="sys_rop4">prepísať TWRP a nebude ponúkať rootovanie zariadenia.</string>
+		<string name="sys_rop3">ArtisanRP sa nezabráni oficiálnej ROM</string>
+		<string name="sys_rop4">prepísať ArtisanRP a nebude ponúkať rootovanie zariadenia.</string>
 		<string name="sys_rop5">Inštalovanie Zip alebo operácie cez adb môžu stále</string>
 		<string name="sys_rop6">modifikovať systémovú partíciu.</string>
-		<string name="sys_rol1">TWRP môže ponechať systémovú partíciu nezmenenú čo zjednoduší inštaláciu oficiálnych aktualizácií.</string>
-		<string name="sys_rol2">TWRP nezabráni oficiálnej ROM prepísať TWRP a nebude ponúkať rootovanie zariadenia.</string>
+		<string name="sys_rol1">ArtisanRP môže ponechať systémovú partíciu nezmenenú čo zjednoduší inštaláciu oficiálnych aktualizácií.</string>
+		<string name="sys_rol2">ArtisanRP nezabráni oficiálnej ROM prepísať ArtisanRP a nebude ponúkať rootovanie zariadenia.</string>
 		<string name="sys_rol3">Inštalovanie Zip alebo operácie cez adb môžu stále modifikovať systémovú partíciu.</string>
 		<string name="sys_ro_never_show_chk">Viac nezobrazovať túto obrazovku pri štarte</string>
 		<string name="sys_ro_keep_ro_btn">Ponechať v režime na čítanie</string>
@@ -363,10 +363,10 @@
 		<string name="language_hdr">Jazyk</string>
 		<string name="terminal_btn">Terminál</string>
 		<string name="reload_theme_btn">Načítať tému</string>
-		<string name="inject_twrp_btn">Vložiť TWRP</string>
-		<string name="inject_twrp_confirm">Znova vložiť TWRP?</string>
-		<string name="injecting_twrp">Vkladanie TWRP...</string>
-		<string name="inject_twrp_complete">Vloženie TWRP dokončené</string>
+		<string name="inject_twrp_btn">Vložiť ArtisanRP</string>
+		<string name="inject_twrp_confirm">Znova vložiť ArtisanRP?</string>
+		<string name="injecting_twrp">Vkladanie ArtisanRP...</string>
+		<string name="inject_twrp_complete">Vloženie ArtisanRP dokončené</string>
 		<string name="swipe_to_confirm">Potiahnite pre potvrdenie</string>
 		<string name="part_sd_hdr">Rozdeliť SD kartu</string>
 		<string name="invalid_partsd_sel">Musíte zvoliť odpojiteľné zariadenie</string>
@@ -559,7 +559,7 @@
 		<string name="need_new_adb">Pre použitie sideload na toto zariadenie potrebujete ADB 1.0.32 alebo novšie.</string>
 		<string name="no_pwd">Heslo nebolo zadané.</string>
 		<string name="done_ors">Vykonávanie skriptu dokončené</string>
-		<string name="injecttwrp">Vkladanie TWRP do boot.img...</string>
+		<string name="injecttwrp">Vkladanie ArtisanRP do boot.img...</string>
 		<string name="zip_err">Chyba pri inštalácií zip súboru \'{1}\'</string>
 		<string name="installing_zip">Inštalácia zip súboru \'{1}\'</string>
 		<string name="select_backup_opt">Nastavenie možností zálohy:</string>
@@ -584,7 +584,7 @@
 		<string name="pid_signal">Proces {1} skončil so signálom: {2}</string>
 		<string name="pid_error">Proces {1} skončil s CHYBOU: {2}</string>
 		<string name="run_script">Beh skriptu {1}...</string>
-		<string name="rename_stock">Premenovaný originál recovery súbor v /system pre zabránenie prepísania TWRP originál ROM.</string>
+		<string name="rename_stock">Premenovaný originál recovery súbor v /system pre zabránenie prepísania ArtisanRP originál ROM.</string>
 		<string name="split_backup">Rozdelenie zálohy do viacerých archívov...</string>
 		<string name="backup_error">Chyba pri vytváraní zálohy.</string>
 		<string name="restore_error">Chyba počas procesu obnovy.</string>
@@ -595,8 +595,8 @@
 		<string name="base_pkg_err">Nie je možné načítať základné balíčky.</string>
 		<string name="simulating">Simulovanie akcií...</string>
 		<string name="backup_cancel">Zálohovanie prerušené</string>
-		<string name="config_twrp">Konfigurovanie TWRP...</string>
-		<string name="config_twrp_err">Nie je možné konfigurovať TWRP s týmto kernelom.</string>
+		<string name="config_twrp">Konfigurovanie ArtisanRP...</string>
+		<string name="config_twrp_err">Nie je možné konfigurovať ArtisanRP s týmto kernelom.</string>
 		<string name="copy_log">Recovery log skopírovaný do {1}.</string>
 		<string name="max_queue">Dosiahnutý maximálny počet zip v zozname!</string>
 		<string name="min_queue">Dosiahnutý minimálny počet zip v zozname!</string>
@@ -612,6 +612,6 @@
 		<string name="no_real_sdcard">Toto zariadenie nemá skutočnú SD kartu! Prerušujem!</string>
 		<string name="cancel_sideload">Rušenie ADB sideload...</string>
 		<string name="change_fs_err">Chyba pri zmene súborového systému.</string>
-		<string name="theme_ver_err">Vlastná téma sa nezhoduje s verziou TWRP. Používa sa originál téma.</string>
+		<string name="theme_ver_err">Vlastná téma sa nezhoduje s verziou ArtisanRP. Používa sa originál téma.</string>
 	</resources>
 </language>

@@ -27,7 +27,7 @@
 		<string name="adopted_data">Datos adoptados</string>
 		<string name="adopted_storage">Memoria adoptada</string>
 		<string name="twrp_header">Proyecto Team Win Recovery</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% °C</string>
 		<string name="battery_pct">Batería: %tw_battery%</string>
 		<string name="sort_by_name">Ordenar por Nombre</string>
@@ -75,7 +75,7 @@
 		<string name="folder">Carpeta:</string>
 		<string name="file">Archivo:</string>
 		<string name="zip_sig_chk">Verificar la firma del archivo</string>
-		<string name="inject_twrp_chk">Injectar TWRP después de instalar</string>
+		<string name="inject_twrp_chk">Injectar ArtisanRP después de instalar</string>
 		<string name="install_reboot_chk">Reiniciar después de completar la instalación</string>
 		<string name="options_hdr">Opciones</string>
 		<string name="confirm_flash_hdr">Confirmar el Flasheo</string>
@@ -269,14 +269,14 @@
 		<string name="swipe_power_off_s">Apagar</string>
 		<string name="sys_ro_hdr">Particion de sistema sin modificar</string>
 		<string name="sys_ro_keep">Mantener Sitema solo lectura</string>
-		<string name="sys_rop1">TWRP puede dejar sin modificar la partición del sistema</string>
+		<string name="sys_rop1">ArtisanRP puede dejar sin modificar la partición del sistema</string>
 		<string name="sys_rop2">para que sea más fácil para usted instalar actualizaciones oficiales.</string>
-		<string name="sys_rop3">TWRP será incapaz de impedir que la stock ROM</string>
-		<string name="sys_rop4">sustituya TWRP y no ofrecerá rootear su dispositivo.</string>
+		<string name="sys_rop3">ArtisanRP será incapaz de impedir que la stock ROM</string>
+		<string name="sys_rop4">sustituya ArtisanRP y no ofrecerá rootear su dispositivo.</string>
 		<string name="sys_rop5">Instalación de zips o la realización de operaciones adb aún puede</string>
 		<string name="sys_rop6">modificar la partición del sistema.</string>
-		<string name="sys_rol1">TWRP puede dejar sin modificar la partición del sistema para que sea más fácil para usted instalar actualizaciones oficiales.</string>
-		<string name="sys_rol2">TWRP será incapaz de impedir que la stock ROM sustituya TWRP y no ofrecerá rootear su dispositivo.</string>
+		<string name="sys_rol1">ArtisanRP puede dejar sin modificar la partición del sistema para que sea más fácil para usted instalar actualizaciones oficiales.</string>
+		<string name="sys_rol2">ArtisanRP será incapaz de impedir que la stock ROM sustituya ArtisanRP y no ofrecerá rootear su dispositivo.</string>
 		<string name="sys_rol3">Instalación de zips o la realización de operaciones adb aún puede modificar la partición del sistema.</string>
 		<string name="sys_ro_never_show_chk">No mostrar nunca más esta pantalla durante el inicio</string>
 		<string name="sys_ro_keep_ro_btn">Mantener modo lectura</string>
@@ -365,10 +365,10 @@
 		<string name="language_hdr">Idioma</string>
 		<string name="terminal_btn">Terminal</string>
 		<string name="reload_theme_btn">Recargar Tema</string>
-		<string name="inject_twrp_btn">Injectar TWRP</string>
-		<string name="inject_twrp_confirm">Re-Injectar TWRP?</string>
-		<string name="injecting_twrp">Re-Injectando TWRP...</string>
-		<string name="inject_twrp_complete">TWRP Injección Completa</string>
+		<string name="inject_twrp_btn">Injectar ArtisanRP</string>
+		<string name="inject_twrp_confirm">Re-Injectar ArtisanRP?</string>
+		<string name="injecting_twrp">Re-Injectando ArtisanRP...</string>
+		<string name="inject_twrp_complete">ArtisanRP Injección Completa</string>
 		<string name="swipe_to_confirm">Desliza para Confirmar</string>
 		<string name="part_sd_hdr">Particionar Tarjeta SD</string>
 		<string name="invalid_partsd_sel">Debes seleccionar un dispositivo extraíble</string>
@@ -572,7 +572,7 @@
 		<string name="need_new_adb">Necesitas de adb 1.0.32 o más nuevo para poder realizar la carga lateral en este dispositivo.</string>
 		<string name="no_pwd">No se ha proporcionado contraseña.</string>
 		<string name="done_ors">Procesamiento de comando de archivos hecho</string>
-		<string name="injecttwrp">Inyectando TWRP en imagen boot...</string>
+		<string name="injecttwrp">Inyectando ArtisanRP en imagen boot...</string>
 		<string name="zip_err">Error instalando archivo zip \'{1}\'</string>
 		<string name="installing_zip">Instalando archivo zip '{1}'</string>
 		<string name="select_backup_opt">Ajustando opciones de copia de seguridad:</string>
@@ -597,7 +597,7 @@
 		<string name="pid_signal">Proceso {1} terminó con señal: {2}</string>
 		<string name="pid_error">Proceso {1} terminó con ERROR: {2}</string>
 		<string name="run_script">Ejecutando script {1} ...</string>
-		<string name="rename_stock">Renombrado stock recovery en /system para prevenir que la ROM stock remplace TWRP.</string>
+		<string name="rename_stock">Renombrado stock recovery en /system para prevenir que la ROM stock remplace ArtisanRP.</string>
 		<string name="split_backup">Dividiendo copia de seguridad en múltiples archivos...</string>
 		<string name="backup_error">Error creando copia de seguridad.</string>
 		<string name="restore_error">Error durante el proceso de restauración.</string>
@@ -608,8 +608,8 @@
 		<string name="base_pkg_err">Carga de paquetes básicos fallido.</string>
 		<string name="simulating">Simulando acciones...</string>
 		<string name="backup_cancel">Copia de seguridad cancelada.</string>
-		<string name="config_twrp">Configurando TWRP...</string>
-		<string name="config_twrp_err">Incapaz de configurar TWRP con este kernel.</string>
+		<string name="config_twrp">Configurando ArtisanRP...</string>
+		<string name="config_twrp_err">Incapaz de configurar ArtisanRP con este kernel.</string>
 		<string name="copy_log">Log del recovery copiado en {1}.</string>
 		<string name="max_queue">¡Máximo de archivos zip en cola alcanzado!</string>
 		<string name="min_queue">¡Mínimo de archivos zip en cola alcanzado!</string>
@@ -625,7 +625,7 @@
 		<string name="no_real_sdcard">¡Este dispositivo no tiene una tarjeta SD real! ¡Abortando!</string>
 		<string name="cancel_sideload">Cancelando carga lateral ADB...</string>
 		<string name="change_fs_err">Error cambiando sistema de archivos.</string>
-		<string name="theme_ver_err">Tema personalizado no coincide con la versión de TWRP. Usando tema stock.</string>
+		<string name="theme_ver_err">Tema personalizado no coincide con la versión de ArtisanRP. Usando tema stock.</string>
 		<string name="up_a_level">(Subir Un Nivel)</string>
 		<string name="install_reboot">Reiniciando en 5 segundos</string>
 	</resources>

@@ -33,8 +33,8 @@
 		<string name="autostorage">Úložiště</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_header">Artisan Recovery Project</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% °C</string>
 		<string name="battery_pct">Baterie: %tw_battery%</string>
 		<string name="sort_by_name">Seřadit podle názvu</string>
@@ -83,7 +83,7 @@
 		<string name="folder">Adresář:</string>
 		<string name="file">Soubor:</string>
 		<string name="zip_sig_chk">Verifikace podpisu ZIPu</string>
-		<string name="inject_twrp_chk">Vložit TWRP po instalaci</string>
+		<string name="inject_twrp_chk">Vložit ArtisanRP po instalaci</string>
 		<string name="install_reboot_chk">Po dokončení instalace restartovat</string>
 		<string name="options_hdr">Nastavení</string>
 		<string name="confirm_flash_hdr">Potvrdit instalaci</string>
@@ -119,17 +119,17 @@
 		<string name="rebooting">Restartování...</string>
 		<string name="swipe_reboot">Potáhnout pro restartování</string>
 		<string name="swipe_reboot_s">   Restart</string>
-		<string name="reboot_install_app1">Přejete si nainstalovat apku Official TWRP App?</string>
-		<string name="reboot_install_app2">Aplikace může zkontrolovat nové verze TWRP.</string>
-		<string name="reboot_install_app_hdr">Instalovat TWRP apku?</string>
-		<string name="reboot_install_app_prompt_install">Vyzvat k instalaci TWRP apky, pokud není nainstalována</string>
+		<string name="reboot_install_app1">Přejete si nainstalovat apku Official ArtisanRP App?</string>
+		<string name="reboot_install_app2">Aplikace může zkontrolovat nové verze ArtisanRP.</string>
+		<string name="reboot_install_app_hdr">Instalovat ArtisanRP apku?</string>
+		<string name="reboot_install_app_prompt_install">Vyzvat k instalaci ArtisanRP apky, pokud není nainstalována</string>
 		<string name="reboot_install_app_system">Nainstalovat jako systémovou aplikaci</string>
 		<string name="reboot_installing_app">Instalace aplikace...</string>
-		<string name="swipe_to_install_app">Potáhnout pro instalaci TWRP apky</string>
-		<string name="uninstall_twrp_system_app">Odinstalovat TWRP apku ze systému</string>
-		<string name="uninstall_twrp_system_app_complete">TWRP apka odinstalována</string>
-		<string name="uninstall_twrp_system_app_confirm">Odinstalovat TWRP apku ze systému?</string>
-		<string name="uninstalling_twrp_system_app">Odinstalovávání TWRP apky ze systému...</string>
+		<string name="swipe_to_install_app">Potáhnout pro instalaci ArtisanRP apky</string>
+		<string name="uninstall_twrp_system_app">Odinstalovat ArtisanRP apku ze systému</string>
+		<string name="uninstall_twrp_system_app_complete">ArtisanRP apka odinstalována</string>
+		<string name="uninstall_twrp_system_app_confirm">Odinstalovat ArtisanRP apku ze systému?</string>
+		<string name="uninstalling_twrp_system_app">Odinstalovávání ArtisanRP apky ze systému...</string>
 		<string name="swipe_flash">Potáhnout pro potvrzení zápisu</string>
 		<string name="confirm_action">Potvrdit akci</string>
 		<string name="back_cancel">Pro zrušení stlačte tlačítko nazpět.</string>
@@ -299,14 +299,14 @@
 		<string name="swipe_power_off_s">Vypnout</string>
 		<string name="sys_ro_hdr">Nezměněný systémový oddíl</string>
 		<string name="sys_ro_keep">Ponechat Systém v režimu na čtení?</string>
-		<string name="sys_rop1">TWRP může ponechat váš systémový oddíl nezměněný</string>
+		<string name="sys_rop1">ArtisanRP může ponechat váš systémový oddíl nezměněný</string>
 		<string name="sys_rop2">což zjednoduší instalaci oficiálních aktualizací.</string>
-		<string name="sys_rop3">TWRP nezabrání tovární ROMce</string>
-		<string name="sys_rop4">přepsat TWRP a nebude nabízet rootování zařízení.</string>
+		<string name="sys_rop3">ArtisanRP nezabrání tovární ROMce</string>
+		<string name="sys_rop4">přepsat ArtisanRP a nebude nabízet rootování zařízení.</string>
 		<string name="sys_rop5">Instalovaní ZIPu nebo operace přes ADB mohou stále</string>
 		<string name="sys_rop6">modifikovat systémový oddíl.</string>
-		<string name="sys_rol1">TWRP může ponechat váš systémový oddíl nezměněný což zjednoduší instalaci oficiálních aktualizací.</string>
-		<string name="sys_rol2">TWRP nezabrání tovární ROMce přepsat TWRP a nebude nabízet rootování zařízení.</string>
+		<string name="sys_rol1">ArtisanRP může ponechat váš systémový oddíl nezměněný což zjednoduší instalaci oficiálních aktualizací.</string>
+		<string name="sys_rol2">ArtisanRP nezabrání tovární ROMce přepsat ArtisanRP a nebude nabízet rootování zařízení.</string>
 		<string name="sys_rol3">Instalování ZIPu nebo operace přes ADB mohou stále modifikovat systémový oddíl.</string>
 		<string name="sys_ro_never_show_chk">Nikdy víc nezobrazovat tuto obrazovku po startu</string>
 		<string name="sys_ro_keep_ro_btn">Ponechat v režimu na čtení</string>
@@ -317,7 +317,7 @@
 		<string name="settings_gen_s_hdr">Všeobecné</string>
 		<string name="settings_gen_btn">Všeobecné</string>
 		<string name="use_rmrf_chk">Použít rm -rf namísto naformátování</string>
-		<string name="auto_reflashtwrp_chk">Automaticky obnovit TWRP po instalaci ROM</string>
+		<string name="auto_reflashtwrp_chk">Automaticky obnovit ArtisanRP po instalaci ROM</string>
 		<string name="use24clock_chk">Používat 24-hodin</string>
 		<string name="rev_navbar_chk">Převrácené uspořádaní lišty</string>
 		<string name="simact_chk">Simulovat akce pro testovaní tématu</string>
@@ -399,10 +399,10 @@
 		<string name="language_hdr">Jazyk</string>
 		<string name="terminal_btn">Terminál</string>
 		<string name="reload_theme_btn">Načíst téma</string>
-		<string name="inject_twrp_btn">Vložit TWRP</string>
-		<string name="inject_twrp_confirm">Znova vložit TWRP?</string>
-		<string name="injecting_twrp">Znova vkladám TWRP...</string>
-		<string name="inject_twrp_complete">Vložení TWRP dokončeno</string>
+		<string name="inject_twrp_btn">Vložit ArtisanRP</string>
+		<string name="inject_twrp_confirm">Znova vložit ArtisanRP?</string>
+		<string name="injecting_twrp">Znova vkladám ArtisanRP...</string>
+		<string name="inject_twrp_complete">Vložení ArtisanRP dokončeno</string>
 		<string name="swipe_to_confirm">Potáhnout pro potvrzení</string>
 		<string name="part_sd_hdr">Rozdělit SD kartu</string>
 		<string name="invalid_partsd_sel">Musíte zvolit odstranitelné zařízení</string>
@@ -499,10 +499,10 @@
 		<string name="repacking_image">Přebalování {1}...</string>
 		<string name="repack_image_hdr">Vybrat IMG</string>
 		<string name="repack_overwrite_warning">Pokud bylo zařízení dříve rootováno, pak byl root přepsán a bude nutné jej znovu nainstalovat.</string>
-		<string name="reflash_twrp">Instalace aktualního TWRP</string>
-		<string name="reflash_twrp_confirm">Instalovat aktualní TWRP?</string>
-		<string name="reflashing_twrp">Instalování TWRP...</string>
-		<string name="reflash_twrp_complete">Instalace TWRP dokončena</string>
+		<string name="reflash_twrp">Instalace aktualního ArtisanRP</string>
+		<string name="reflash_twrp_confirm">Instalovat aktualní ArtisanRP?</string>
+		<string name="reflashing_twrp">Instalování ArtisanRP...</string>
+		<string name="reflash_twrp_complete">Instalace ArtisanRP dokončena</string>
 		<string name="fix_recovery_loop">Opravit Recovery bootloop</string>
 		<string name="fix_recovery_loop_confirm">Opravit Recovery bootloop?</string>
 		<string name="fixing_recovery_loop">Oprava Recovery bootloopu...</string>
@@ -662,7 +662,7 @@
 		<string name="need_new_adb">pro použití sideload na tomto zařízení potřebujete ADB 1.0.32 nebo novější.</string>
 		<string name="no_pwd">Heslo nebylo poskytnuto.</string>
 		<string name="done_ors">Vykonávání skriptu dokončeno</string>
-		<string name="injecttwrp">Vkládání TWRP do boot.img...</string>
+		<string name="injecttwrp">Vkládání ArtisanRP do boot.img...</string>
 		<string name="zip_err">Chyba při instalaci ZIP souboru \'{1}\'</string>
 		<string name="installing_zip">Instalace ZIP souboru \'{1}\'</string>
 		<string name="select_backup_opt">Nastavení možností zálohy:</string>
@@ -687,7 +687,7 @@
 		<string name="pid_signal">Proces {1} skončil se signálem: {2}</string>
 		<string name="pid_error">Proces {1} skončil s CHYBOU: {2}</string>
 		<string name="run_script">Provádění skriptu {1}...</string>
-		<string name="rename_stock">Přejmenování souboru s tovární Recovery v /systém pro zabránění přepsání TWRP tovární ROM.</string>
+		<string name="rename_stock">Přejmenování souboru s tovární Recovery v /systém pro zabránění přepsání ArtisanRP tovární ROM.</string>
 		<string name="split_backup">Rozdělení zálohy do více archívů...</string>
 		<string name="backup_error">Chyba při vytváření zálohy.</string>
 		<string name="restore_error">Chyba během procesu obnovy.</string>
@@ -699,8 +699,8 @@
 		<string name="base_pkg_err">Nepodařilo se načíst základní balíčky.</string>
 		<string name="simulating">Simulování akcí...</string>
 		<string name="backup_cancel">Zálohování přerušeno</string>
-		<string name="config_twrp">Konfigurování TWRP...</string>
-		<string name="config_twrp_err">Nelze konfigurovat TWRP s tímto jádrem.</string>
+		<string name="config_twrp">Konfigurování ArtisanRP...</string>
+		<string name="config_twrp_err">Nelze konfigurovat ArtisanRP s tímto jádrem.</string>
 		<string name="copy_log">Recovery log zkopírovaný do {1}.</string>
 		<string name="max_queue">Dosažený maximální počet ZIPů v seznamu!</string>
 		<string name="min_queue">Dosažený minimální počet ZIPů v seznamu!</string>
@@ -716,12 +716,12 @@
 		<string name="no_real_sdcard">Toto zařízení nemá skutečnou SD kartu! Přerušuji!</string>
 		<string name="cancel_sideload">Ruším ADB sideload...</string>
 		<string name="change_fs_err">Chyba při změně souborového systému.</string>
-		<string name="theme_ver_err">Téma vlastní verze nesedí s verzí TWRP. Použije se výchozí téma.</string>
+		<string name="theme_ver_err">Téma vlastní verze nesedí s verzí ArtisanRP. Použije se výchozí téma.</string>
 		<string name="up_a_level">(O úroveň výš)</string>
 		<string name="install_reboot" version="2">Restartování do %tw_sleep% sekund(s)</string>
 		<string name="adbbackup_error">Chyba při ADB zálohování. Ukončuji..."</string>
 		<string name="adbbackup_control_error">Nelze zapisovat na ovládací kanál ADB</string>
-		<string name="twrp_adbbu_option">--nutné pro povolení TWRP ADB zálohování</string>
+		<string name="twrp_adbbu_option">--nutné pro povolení ArtisanRP ADB zálohování</string>
 		<string name="partition_not_found">cesta: {1} nebyl nalezen v seznamu oddílů</string>
 		<string name="copy_kernel_log">Log kernelu zkopírován do {1}</string>
 		<string name="copy_logcat">Zkopírován logcat do {1}</string>
@@ -733,7 +733,7 @@
 		<string name="unmount_system">Odpojování Systému...</string>
 		<string name="unmount_system_err">Odpojení Systému se nezdařilo</string>
 		<string name="flash_ab_inactive">Instalace A/B ZIPu do neaktivního slotu: {1}</string>
-		<string name="flash_ab_reboot">Chcete-li instalovat další ZIPy, restartujte TWRP a přepněte na aktualizovaný slot.</string>
+		<string name="flash_ab_reboot">Chcete-li instalovat další ZIPy, restartujte ArtisanRP a přepněte na aktualizovaný slot.</string>
 		<string name="flash_ab_both_slots">Instalace do obou slotů</string>
 		<string name="ozip_decrypt_decryption">Spouštění Ozip dešifrování...</string>
 		<string name="ozip_decrypt_finish">Ozip dešifrování dokončeno!</string>
@@ -741,7 +741,7 @@
 		<string name="enable_adb">Povolit ADB</string>
 		<string name="enable_fastboot">Povolit Fastboot</string>
 		<string name="fastboot_console_msg">Přepínání do Fastboot režimu...</string>
-		<string name="data_media_fbe_msg">TWRP znovu nevytvoří /data/media na zařízení FBE. Restartujte do své rom a vytvořte /data/media</string>
+		<string name="data_media_fbe_msg">ArtisanRP znovu nevytvoří /data/media na zařízení FBE. Restartujte do své rom a vytvořte /data/media</string>
 		<!-- Android Rescue Party trigger -->
 		<string name="rescue_party0">Spouštění záchrany (Android Rescue Party)! Možné řešení? Buď:</string>
 		<string name="rescue_party1"> 1. Smazat Cache, a/nebo</string>
@@ -749,9 +749,9 @@
 		<string name="rescue_party3"> 3. Čistá instalace ROM.</string>
 		<string name="rescue_party4">Hlášeny problem je: </string>
 		<string name="restore_system_context">Nelze získat výchozí kontext pro {1} -- Android se nemusí spustit.</string>
-		<string name="change_twrp_folder_after_process">TWRP složka změněna na</string>
-		<string name="change_twrp_folder_btn">Změna TWRP složky</string>
-		<string name="change_twrp_folder_on_process">Měnění TWRP složky</string>
+		<string name="change_twrp_folder_after_process">ArtisanRP složka změněna na</string>
+		<string name="change_twrp_folder_btn">Změna ArtisanRP složky</string>
+		<string name="change_twrp_folder_on_process">Měnění ArtisanRP složky</string>
 		<string name="tw_folder_exists">Složka s tímto názvem již existuje!</string>
 		<string name="unmap_super_devices">Zrušit mapování super zařízení</string>
 		<string name="unmap_super_devices_confirm">Zrušit mapování všech super zařízení?</string>

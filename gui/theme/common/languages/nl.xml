@@ -29,8 +29,8 @@
 		<string name="adopted_storage">Geadopteerde opslag</string>
 		<string name="autostorage">Opslag</string>
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_header">Artisan Recovery Project</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% ° C</string>
 		<string name="battery_pct">Accu: %tw_battery%</string>
 		<string name="sort_by_name">Op naam sorteren</string>
@@ -78,7 +78,7 @@
 		<string name="folder">Map:</string>
 		<string name="file">Bestand:</string>
 		<string name="zip_sig_chk">Ondertekening zipbestand verifiëren</string>
-		<string name="inject_twrp_chk">TWRP injecteren na installatie</string>
+		<string name="inject_twrp_chk">ArtisanRP injecteren na installatie</string>
 		<string name="install_reboot_chk">Apparaat herstarten na installatie</string>
 		<string name="options_hdr">Opties</string>
 		<string name="confirm_flash_hdr">Flashen bevestigen</string>
@@ -114,17 +114,17 @@
 		<string name="rebooting">Herstarten...</string>
 		<string name="swipe_reboot">Veeg om te herstarten</string>
 		<string name="swipe_reboot_s">   Herstarten</string>
-		<string name="reboot_install_app_hdr">TWRP-app installeren?</string>
-		<string name="reboot_install_app1">Wilt u de officiële TWRP-app installeren?</string>
-		<string name="reboot_install_app2">De app kan controleren of er een nieuwere versie van TWRP beschikaar is.</string>
-		<string name="reboot_install_app_prompt_install">Installatie TWRP-app aanbieden</string>
+		<string name="reboot_install_app_hdr">ArtisanRP-app installeren?</string>
+		<string name="reboot_install_app1">Wilt u de officiële ArtisanRP-app installeren?</string>
+		<string name="reboot_install_app2">De app kan controleren of er een nieuwere versie van ArtisanRP beschikaar is.</string>
+		<string name="reboot_install_app_prompt_install">Installatie ArtisanRP-app aanbieden</string>
 		<string name="reboot_install_app_system">Installeren als System-app</string>
 		<string name="reboot_installing_app">App wordt geïnstalleerd...</string>
-		<string name="swipe_to_install_app">Veeg om TWRP-app te installeren</string>
-		<string name="uninstall_twrp_system_app">TWRP-app verwijderen van System</string>
-		<string name="uninstall_twrp_system_app_confirm">TWRP-app verwijderen van System?</string>
-		<string name="uninstalling_twrp_system_app">TWRP-app wordt verwijderd van System...</string>
-		<string name="uninstall_twrp_system_app_complete">TWRP-app verwijderd</string>
+		<string name="swipe_to_install_app">Veeg om ArtisanRP-app te installeren</string>
+		<string name="uninstall_twrp_system_app">ArtisanRP-app verwijderen van System</string>
+		<string name="uninstall_twrp_system_app_confirm">ArtisanRP-app verwijderen van System?</string>
+		<string name="uninstalling_twrp_system_app">ArtisanRP-app wordt verwijderd van System...</string>
+		<string name="uninstall_twrp_system_app_complete">ArtisanRP-app verwijderd</string>
 		<string name="swipe_flash">Veeg om te installeren</string>
 		<string name="confirm_action">Actie bevestigen</string>
 		<string name="back_cancel">Klik op Terug om te annuleren.</string>
@@ -293,14 +293,14 @@
 		<string name="swipe_power_off_s">Uitschakelen</string>
 		<string name="sys_ro_hdr">Ongewijzigde System-partitie</string>
 		<string name="sys_ro_keep">System-partitie onbeschijfbaar laten?</string>
-		<string name="sys_rop1">TWRP kan de System-partitie ongewijzigd laten</string>
+		<string name="sys_rop1">ArtisanRP kan de System-partitie ongewijzigd laten</string>
 		<string name="sys_rop2">om het ontvangen van officiële updates makkelijker te maken.</string>
-		<string name="sys_rop3">TWRP kan het overschrijven van zichzelf door de oorspronkelijke</string>
+		<string name="sys_rop3">ArtisanRP kan het overschrijven van zichzelf door de oorspronkelijke</string>
 		<string name="sys_rop4">ROM niet voorkomen en zal ook niet aanbieden het apparaat te rooten.</string>
 		<string name="sys_rop5">Het installeren van zipbestanden en het gebruik van adb</string>
 		<string name="sys_rop6">kunnen de System-partitie alsnog doen veranderen.</string>
-		<string name="sys_rol1">TWRP kan de System-partitie ongewijzigd laten om het ontvangen van officiële updates makkelijker te maken.</string>
-		<string name="sys_rol2">TWRP kan het overschrijven van zichzelf door de oorspronkelijke ROM niet voorkomen en zal ook niet aanbieden het apparaat te rooten.</string>
+		<string name="sys_rol1">ArtisanRP kan de System-partitie ongewijzigd laten om het ontvangen van officiële updates makkelijker te maken.</string>
+		<string name="sys_rol2">ArtisanRP kan het overschrijven van zichzelf door de oorspronkelijke ROM niet voorkomen en zal ook niet aanbieden het apparaat te rooten.</string>
 		<string name="sys_rol3">Het installeren van zipbestanden en het gebruik van adb kunnen de System-partitie alsnog doen veranderen.</string>
 		<string name="sys_ro_never_show_chk">Dit scherm niet meer weergeven tijdens het opstarten</string>
 		<string name="sys_ro_keep_ro_btn">Onbeschrijfbaar laten</string>
@@ -392,10 +392,10 @@
 		<string name="language_hdr">Taal</string>
 		<string name="terminal_btn">Terminal</string>
 		<string name="reload_theme_btn">Thema herladen</string>
-		<string name="inject_twrp_btn">TWRP injecteren</string>
-		<string name="inject_twrp_confirm">TWRP opnieuw injecteren?</string>
-		<string name="injecting_twrp">TWRP opnieuw injecteren...</string>
-		<string name="inject_twrp_complete">TWRP geïnjecteerd</string>
+		<string name="inject_twrp_btn">ArtisanRP injecteren</string>
+		<string name="inject_twrp_confirm">ArtisanRP opnieuw injecteren?</string>
+		<string name="injecting_twrp">ArtisanRP opnieuw injecteren...</string>
+		<string name="inject_twrp_complete">ArtisanRP geïnjecteerd</string>
 		<string name="swipe_to_confirm">Veeg om te bevestigen</string>
 		<string name="part_sd_hdr">SD-kaart partitioneren</string>
 		<string name="invalid_partsd_sel">U moet een verwisselbaar apparaat selecteren</string>
@@ -647,7 +647,7 @@
 		<string name="need_new_adb">adb 1.0.32 of nieuwer is vereist om te sideloaden naar dit apparaat.</string>
 		<string name="no_pwd">Geen wachtwoord opgegeven.</string>
 		<string name="done_ors">Uitvoeren scriptbestand voltooid</string>
-		<string name="injecttwrp">TWRP wordt in het bootimage ingelast...</string>
+		<string name="injecttwrp">ArtisanRP wordt in het bootimage ingelast...</string>
 		<string name="zip_err">Fout bij het installeren van zipbestand '{1}'</string>
 		<string name="installing_zip">Zipbestand '{1}' wordt geïnstalleerd</string>
 		<string name="select_backup_opt">Instellen van back-upopties:</string>
@@ -672,7 +672,7 @@
 		<string name="pid_signal">{1} proces geëindigd met signaal: {2}</string>
 		<string name="pid_error">{1} proces geëindigd met fout: {2}</string>
 		<string name="run_script">Script {1} wordt uitgevoerd...</string>
-		<string name="rename_stock">Oorspronkelijke recoverybestand hernoemd in /system om te voorkomen dat de ROM TWRP vervangt.</string>
+		<string name="rename_stock">Oorspronkelijke recoverybestand hernoemd in /system om te voorkomen dat de ROM ArtisanRP vervangt.</string>
 		<string name="split_backup">Back-upbestand wordt in meerdere archiefbestanden opgesplitst...</string>
 		<string name="backup_error">Fout bij het maken van de back-up.</string>
 		<string name="restore_error">Fout tijdens het herstellen.</string>
@@ -684,8 +684,8 @@
 		<string name="base_pkg_err">Fout bij het laden van de basispakketten.</string>
 		<string name="simulating">Acties worden gesimuleerd...</string>
 		<string name="backup_cancel">Back-up geannuleerd</string>
-		<string name="config_twrp">TWRP wordt geconfigureerd...</string>
-		<string name="config_twrp_err">Met deze kernel kan TWRP niet worden geconfigureerd.</string>
+		<string name="config_twrp">ArtisanRP wordt geconfigureerd...</string>
+		<string name="config_twrp_err">Met deze kernel kan ArtisanRP niet worden geconfigureerd.</string>
 		<string name="copy_log">Recoverylogbestand gekopieerd naar {1}.</string>
 		<string name="max_queue">Maximale lengte zipwachtrij bereikt!</string>
 		<string name="min_queue">Minimale lengte zipwachtrij bereikt!</string>
@@ -701,7 +701,7 @@
 		<string name="no_real_sdcard">Dit apparaat beschikt niet over een echte SD-kaart! Afgebroken!</string>
 		<string name="cancel_sideload">ADB-sideload wordt geannuleerd...</string>
 		<string name="change_fs_err">Fout tijdens het wijzigen van het bestandssysteem.</string>
-		<string name="theme_ver_err">Versie maatwerkthema past niet bij deze versie van TWRP. Standaardthema wordt gebruikt.</string>
+		<string name="theme_ver_err">Versie maatwerkthema past niet bij deze versie van ArtisanRP. Standaardthema wordt gebruikt.</string>
 		<string name="up_a_level">(Niveau omhoog)</string>
 		<string name="install_reboot" version="2">Herstarten over %tw_sleep% seconden</string>
 		<string name="adbbackup_error">Fout bij ADB-back-up. Afgebroken...&quot;</string>
@@ -731,9 +731,9 @@
 		<string name="rescue_party3"> 3. Uw ROM schoon flashen.</string>
 		<string name="rescue_party4">Het gemelde probleem is: </string>
 		<string name="restore_system_context">Kan standaardcontext voor {1} niet achterhalen -- Android start mogelijk niet op.</string>
-		<string name="change_twrp_folder_btn">TWRP-map wijzigen</string>
-		<string name="change_twrp_folder_on_process">TWRP-map wordt gewijzigd</string>
-		<string name="change_twrp_folder_after_process">TWRP-map gewijzigd in</string>
+		<string name="change_twrp_folder_btn">ArtisanRP-map wijzigen</string>
+		<string name="change_twrp_folder_on_process">ArtisanRP-map wordt gewijzigd</string>
+		<string name="change_twrp_folder_after_process">ArtisanRP-map gewijzigd in</string>
 		<string name="tw_folder_exists">Er bestaat al een map met die naam!</string>
 	</resources>
 </language>

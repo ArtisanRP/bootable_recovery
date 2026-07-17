@@ -19,7 +19,7 @@
 		<string name="usbotg">USB OTG</string>
 		<string name="dalvik">Dalvik / ART Cache</string>
 		<string name="sdext">SD-EXT</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="sort_by_name">Sortera efter namn</string>
 		<string name="sort_by_date">Sortera efter datum</string>
 		<string name="sort_by_size">Sortera efter storlek</string>
@@ -141,7 +141,7 @@
 		<string name="file_manager_btn">Filhanterare</string>
 		<string name="language_hdr">Språk</string>
 		<string name="terminal_btn">Terminal</string>
-		<string name="inject_twrp_btn">Injicera TWRP</string>
+		<string name="inject_twrp_btn">Injicera ArtisanRP</string>
 		<string name="part_sd_m">-</string>
 		<string name="part_sd_p">+</string>
 		<string name="file_system">Filsystem:</string>
@@ -192,7 +192,7 @@
 		<string name="installing_zip">Installerar zipfil \"{1}\"</string>
 		<string name="compression_on">Komprimering är på</string>
 		<string name="verify_zip_sig">Verifierar zip-signatur...</string>
-		<string name="config_twrp">Konfigurerar TWRP...</string>
+		<string name="config_twrp">Konfigurerar ArtisanRP...</string>
 		<string name="auto_gen">(Auto-generera)</string>
 		<string name="curr_date">(Dagens datum)</string>
 	</resources>

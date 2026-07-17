@@ -33,8 +33,8 @@
 		<string name="autostorage">Armazenamento</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_header">Artisan Recovery Project</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">Bateria: %tw_battery%</string>
 		<string name="sort_by_name">Ordenar por nome</string>
@@ -83,7 +83,7 @@
 		<string name="folder">Origem:</string>
 		<string name="file">Ficheiro:</string>
 		<string name="zip_sig_chk">Verificação de assinatura do ficheiro zip</string>
-		<string name="inject_twrp_chk">Injetar a TWRP após a instalação</string>
+		<string name="inject_twrp_chk">Injetar a ArtisanRP após a instalação</string>
 		<string name="install_reboot_chk">Reiniciar após concluir a instalação</string>
 		<string name="options_hdr">Opções</string>
 		<string name="confirm_flash_hdr">Confirmar a instalação</string>
@@ -119,15 +119,15 @@
 		<string name="rebooting">A reiniciar...</string>
 		<string name="swipe_reboot">     Deslize para reiniciar</string>
 		<string name="swipe_reboot_s">   Reiniciar</string>
-		<string name="reboot_install_app_hdr">Instalar a App TWRP?</string>
-		<string name="reboot_install_app1">Pretende instalar a App TWRP Oficial?</string>
-		<string name="reboot_install_app2">A mesma pesquisa por novas versões da TWRP.</string>
-		<string name="reboot_install_app_prompt_install">Perguntar se pretende instalar a App TWRP caso não esteja</string>
+		<string name="reboot_install_app_hdr">Instalar a App ArtisanRP?</string>
+		<string name="reboot_install_app1">Pretende instalar a App ArtisanRP Oficial?</string>
+		<string name="reboot_install_app2">A mesma pesquisa por novas versões da ArtisanRP.</string>
+		<string name="reboot_install_app_prompt_install">Perguntar se pretende instalar a App ArtisanRP caso não esteja</string>
 		<string name="reboot_install_app_system">Instalar como App de Sistema</string>
 		<string name="reboot_installing_app">A instalar a App...</string>
 		<string name="swipe_to_install_app">      Deslize para instalar</string>
-		<string name="uninstall_twrp_system_app">Desinstalar a App TWRP do System</string>
-		<string name="uninstall_twrp_system_app_confirm">Desinstalar a App TWRP?</string>
+		<string name="uninstall_twrp_system_app">Desinstalar a App ArtisanRP do System</string>
+		<string name="uninstall_twrp_system_app_confirm">Desinstalar a App ArtisanRP?</string>
 		<string name="uninstalling_twrp_system_app">A desinstalar a App...</string>
 		<string name="uninstall_twrp_system_app_complete">A desinstalação foi concluída</string>
 		<string name="swipe_flash">      Deslize para instalar</string>
@@ -297,13 +297,13 @@
 		<string name="swipe_power_off_s">Desligar</string>
 		<string name="sys_ro_hdr">Partição de sistema não modificada</string>
 		<string name="sys_ro_keep">Pretende manter o sistema apenas para leitura?</string>
-		<string name="sys_rop1">A TWRP pode manter a partição de sistema como não modificada</string>
-		<string name="sys_rop2">contudo, se assim for, a TWRP será incapaz de impedir</string>
+		<string name="sys_rop1">A ArtisanRP pode manter a partição de sistema como não modificada</string>
+		<string name="sys_rop2">contudo, se assim for, a ArtisanRP será incapaz de impedir</string>
 		<string name="sys_rop3">que a ROM oficial substitua a Recovery novamente e</string>
 		<string name="sys_rop4">não irá disponibilizar a opção de dar root ao seu dispositivo.</string>
 		<string name="sys_rop5">Ainda assim, a instalação de Zips, ou a execução de</string>
 		<string name="sys_rop6">operações adb, pode modificar a partição de sistema.</string>
-		<string name="sys_rol1">A TWRP pode manter a partição de sistema como não modificada contudo, se assim for, a TWRP será incapaz de impedir</string>
+		<string name="sys_rol1">A ArtisanRP pode manter a partição de sistema como não modificada contudo, se assim for, a ArtisanRP será incapaz de impedir</string>
 		<string name="sys_rol2">que a ROM oficial substitua a Recovery novamente e não irá disponibilizar a opção de dar root ao seu dispositivo.</string>
 		<string name="sys_rol3">Ainda assim, a instalação de Zips, ou a execução de operações adb, pode modificar a partição de sistema.</string>
 		<string name="sys_ro_never_show_chk">Não voltar a mostrar este aviso</string>
@@ -396,10 +396,10 @@
 		<string name="language_hdr">Idioma</string>
 		<string name="terminal_btn">Terminal</string>
 		<string name="reload_theme_btn">Recarregar Tema</string>
-		<string name="inject_twrp_btn">Injetar TWRP</string>
-		<string name="inject_twrp_confirm">Pretende injetar a TWRP?</string>
-		<string name="injecting_twrp">A injetar a TWRP...</string>
-		<string name="inject_twrp_complete">Injeção da TWRP concluída</string>
+		<string name="inject_twrp_btn">Injetar ArtisanRP</string>
+		<string name="inject_twrp_confirm">Pretende injetar a ArtisanRP?</string>
+		<string name="injecting_twrp">A injetar a ArtisanRP...</string>
+		<string name="inject_twrp_complete">Injeção da ArtisanRP concluída</string>
 		<string name="swipe_to_confirm">     Deslize para confirmar</string>
 		<string name="part_sd_hdr">Particionar o Cartão SD</string>
 		<string name="invalid_partsd_sel">Tem de selecionar um dispositivo removível</string>
@@ -637,7 +637,7 @@
 		<string name="need_new_adb">É necessário o adb 1.0.32, ou mais recente, para fazer sideload a este dispositivo.</string>
 		<string name="no_pwd">Não foi fornecida uma palavra-passe.</string>
 		<string name="done_ors">O ficheiro de script foi processado</string>
-		<string name="injecttwrp">A injetar a TWRP na imagem de Boot...</string>
+		<string name="injecttwrp">A injetar a ArtisanRP na imagem de Boot...</string>
 		<string name="zip_err">Erro ao instalar o ficheiro zip '{1}'</string>
 		<string name="installing_zip">A instalar o ficheiro zip '{1}'</string>
 		<string name="select_backup_opt">A definir opções para o Backup:</string>
@@ -662,7 +662,7 @@
 		<string name="pid_signal">O processo {1} terminou com o sinal: {2}</string>
 		<string name="pid_error">O processo {1} terminou com o erro: {2}</string>
 		<string name="run_script">A executar o script {1}...</string>
-		<string name="rename_stock">O ficheiro da Recovery em /system foi renomeado de modo a impedir que a stock ROM substitua a TWRP.</string>
+		<string name="rename_stock">O ficheiro da Recovery em /system foi renomeado de modo a impedir que a stock ROM substitua a ArtisanRP.</string>
 		<string name="split_backup">A dividir o ficheiro de Backup em vários arquivos...</string>
 		<string name="backup_error">Erro ao criar o Backup.</string>
 		<string name="restore_error">Erro durante o processo de restauro.</string>
@@ -674,8 +674,8 @@
 		<string name="base_pkg_err">Falha ao carregar os pacotes base.</string>
 		<string name="simulating">A simular ações...</string>
 		<string name="backup_cancel">O backup foi cancelado</string>
-		<string name="config_twrp">A confiurar a TWRP...</string>
-		<string name="config_twrp_err">Não é possível configurar a TWRP com este kernel.</string>
+		<string name="config_twrp">A confiurar a ArtisanRP...</string>
+		<string name="config_twrp_err">Não é possível configurar a ArtisanRP com este kernel.</string>
 		<string name="copy_log">O registo da Recovery foi copiado para {1}.</string>
 		<string name="max_queue">A fila de ficheiros zip atingiu o seu máximo!</string>
 		<string name="min_queue">A fila de ficheiros zip atingiu o seu mínimo!</string>
@@ -691,7 +691,7 @@
 		<string name="no_real_sdcard">Este dispositivo não tem um cartão SD externo! A abortar!</string>
 		<string name="cancel_sideload">A cancelar o ADB sideload...</string>
 		<string name="change_fs_err">Erro ao alterar o sistema de ficheiros.</string>
-		<string name="theme_ver_err">A versão do tema personalizado não é compatível com a versão da TWRP. A o usar o tema padrão.</string>
+		<string name="theme_ver_err">A versão do tema personalizado não é compatível com a versão da ArtisanRP. A o usar o tema padrão.</string>
 		<string name="up_a_level">(Nível acima)</string>
 		<string name="install_reboot" version="2">A reiniciar daqui a %tw_sleep% segundo(s)</string>
 		<string name="adbbackup_error">Erro no Backup ADB. A sair..."</string>

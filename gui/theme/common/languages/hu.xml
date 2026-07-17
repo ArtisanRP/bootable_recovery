@@ -32,8 +32,8 @@
 		<string name="adopted_storage">Adoptált tároló</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="twrp_header">Artisan Recovery Project</string>
+		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% °C</string>
 		<string name="battery_pct">Akkumulátor: %tw_battery%</string>
 		<string name="sort_by_name">Rendezés név szerint</string>
@@ -82,7 +82,7 @@
 		<string name="folder">Mappa:</string>
 		<string name="file">Fájl:</string>
 		<string name="zip_sig_chk">Zip aláírás ellenőrzése</string>
-		<string name="inject_twrp_chk">TWRP injektálása telepítés után</string>
+		<string name="inject_twrp_chk">ArtisanRP injektálása telepítés után</string>
 		<string name="install_reboot_chk">Újraindítás telepítés vége után</string>
 		<string name="options_hdr">Beállítások</string>
 		<string name="confirm_flash_hdr">Flashelés megerősítése</string>
@@ -115,13 +115,13 @@
 		<string name="rebooting">Újraindítás...</string>
 		<string name="swipe_reboot">Csúsztasson az újraindításhoz</string>
 		<string name="swipe_reboot_s">   Újraindítás</string>
-		<string name="reboot_install_app_hdr">TWRP alkalmazás telepítése?</string>
-		<string name="reboot_install_app1">Szeretné telepíteni a hivatalos TWRP alkalmazást?</string>
-		<string name="reboot_install_app2">Az alkalmazás képes az új TWRP verziók ellenőrzésére.</string>
-		<string name="reboot_install_app_prompt_install">Azonnal telepítse a TWRP alkalmazást, ha nincs telepítve</string>
+		<string name="reboot_install_app_hdr">ArtisanRP alkalmazás telepítése?</string>
+		<string name="reboot_install_app1">Szeretné telepíteni a hivatalos ArtisanRP alkalmazást?</string>
+		<string name="reboot_install_app2">Az alkalmazás képes az új ArtisanRP verziók ellenőrzésére.</string>
+		<string name="reboot_install_app_prompt_install">Azonnal telepítse a ArtisanRP alkalmazást, ha nincs telepítve</string>
 		<string name="reboot_install_app_system">Telepítés rendszeralkalmazásként</string>
 		<string name="reboot_installing_app">Alkalmazás telepítése...</string>
-		<string name="swipe_to_install_app">Csúsztasson a TWRP alkalmazás telepítéséhez</string>
+		<string name="swipe_to_install_app">Csúsztasson a ArtisanRP alkalmazás telepítéséhez</string>
 		<string name="swipe_flash">Csúsztasson a flashelés megerősítéséhez</string>
 		<string name="confirm_action">Művelet megerősítése</string>
 		<string name="back_cancel">Nyomja meg a vissza gombot a megszakításhoz.</string>
@@ -289,14 +289,14 @@
 		<string name="swipe_power_off_s">Kikapcsolás</string>
 		<string name="sys_ro_hdr">Változatlan rendszerpartíció</string>
 		<string name="sys_ro_keep">A rendszert továbbra is csak olvashatónak hagyja?</string>
-		<string name="sys_rop1">TWRP a rendszerpartícióját változatlanul hagyhatja,</string>
+		<string name="sys_rop1">ArtisanRP a rendszerpartícióját változatlanul hagyhatja,</string>
 		<string name="sys_rop2">hogy megkönnyítse a hivatalos frissítéseket.</string>
-		<string name="sys_rop3">TWRP nem lesz képes megakadályozni a gyári ROM-ot abban,</string>
-		<string name="sys_rop4">hogy lecserélje a TWRP-t és nem ajánlja fel a rootolást eszközéhez.</string>
+		<string name="sys_rop3">ArtisanRP nem lesz képes megakadályozni a gyári ROM-ot abban,</string>
+		<string name="sys_rop4">hogy lecserélje a ArtisanRP-t és nem ajánlja fel a rootolást eszközéhez.</string>
 		<string name="sys_rop5">Zip-ek telepítése, vagy az adb műveletek továbbra is</string>
 		<string name="sys_rop6">módosítják a rendszer partícióit.</string>
-		<string name="sys_rol1">TWRP a rendszerpartícióját változatlanul hagyhatja, hogy megkönnyítse a hivatalos frissítéseket.</string>
-		<string name="sys_rol2">TWRP nem lesz képes megakadályozni a gyári ROM-ot abban, hogy lecserélje a TWRP-t és nem ajánlja fel a rootolást eszközéhez.</string>
+		<string name="sys_rol1">ArtisanRP a rendszerpartícióját változatlanul hagyhatja, hogy megkönnyítse a hivatalos frissítéseket.</string>
+		<string name="sys_rol2">ArtisanRP nem lesz képes megakadályozni a gyári ROM-ot abban, hogy lecserélje a ArtisanRP-t és nem ajánlja fel a rootolást eszközéhez.</string>
 		<string name="sys_rol3">Zip-ek telepítése, vagy az adb műveletek továbbra is módosítják a rendszer partícióit.</string>
 		<string name="sys_ro_never_show_chk">Többé ne mutassa ezt a képernyőt</string>
 		<string name="sys_ro_keep_ro_btn">Csak olvasható megtartása</string>
@@ -387,10 +387,10 @@
 		<string name="language_hdr">Nyelv</string>
 		<string name="terminal_btn">Terminál</string>
 		<string name="reload_theme_btn">Téma újratöltése</string>
-		<string name="inject_twrp_btn">TWRP injektálása</string>
-		<string name="inject_twrp_confirm">TWRP újrainjektálása?</string>
-		<string name="injecting_twrp">TWRP újrainjektálása...</string>
-		<string name="inject_twrp_complete">TWRP injektálása kész</string>
+		<string name="inject_twrp_btn">ArtisanRP injektálása</string>
+		<string name="inject_twrp_confirm">ArtisanRP újrainjektálása?</string>
+		<string name="injecting_twrp">ArtisanRP újrainjektálása...</string>
+		<string name="inject_twrp_complete">ArtisanRP injektálása kész</string>
 		<string name="swipe_to_confirm">Csúsztasson a megerősítéshez</string>
 		<string name="part_sd_hdr">SD-kártya particionálása</string>
 		<string name="invalid_partsd_sel">Ki kell választania egy eltávolítható eszközt</string>
@@ -604,7 +604,7 @@
 		<string name="need_new_adb">Adb 1.0.32, vagy frissebbre van szüksége ahhoz, hogy a sideload funkciót használhassa ehhez a készülékhez.</string>
 		<string name="no_pwd">Nincs megadott jelszó.</string>
 		<string name="done_ors">Kész feldolgozó script fájl</string>
-		<string name="injecttwrp">TWRP injektálása a boot lemezképbe...</string>
+		<string name="injecttwrp">ArtisanRP injektálása a boot lemezképbe...</string>
 		<string name="zip_err">'{1}' zip fájl telepítési hiba</string>
 		<string name="installing_zip">'{1}' zip fájl telepítése</string>
 		<string name="select_backup_opt">Biztonsági mentési beállítások:</string>
@@ -629,7 +629,7 @@
 		<string name="pid_signal">{1} folyamat véget ért a következő jellel: {2}</string>
 		<string name="pid_error">{1} folyamat véget ért a következő HIBÁVAL: {2}</string>
 		<string name="run_script">{1} script futtatása...</string>
-		<string name="rename_stock">Gyári recovery fájl a /rendszer partíción átnevezve, annak megakadályozására, hogy a gyári ROM lecserélje TWRP-t.</string>
+		<string name="rename_stock">Gyári recovery fájl a /rendszer partíción átnevezve, annak megakadályozására, hogy a gyári ROM lecserélje ArtisanRP-t.</string>
 		<string name="split_backup">Biztonsági mentés fájljának tördelése több archívumba...</string>
 		<string name="backup_error">Hiba a biztonsági mentés létrehozásakor.</string>
 		<string name="restore_error">Hiba a visszaállítási folyamat közben.</string>
@@ -641,8 +641,8 @@
 		<string name="base_pkg_err">Nem sikerült betölteni az alap csomagokat.</string>
 		<string name="simulating">Műveletek szimulálása...</string>
 		<string name="backup_cancel">Biztonsági mentés megszakítva</string>
-		<string name="config_twrp">TWRP konfigurálása...</string>
-		<string name="config_twrp_err">TWRP konfigurálása ezzel a kernellel sikertelen.</string>
+		<string name="config_twrp">ArtisanRP konfigurálása...</string>
+		<string name="config_twrp_err">ArtisanRP konfigurálása ezzel a kernellel sikertelen.</string>
 		<string name="copy_log">Recovery napló másolva ide: {1}.</string>
 		<string name="max_queue">Elérte a Zip várólista maximumát!</string>
 		<string name="min_queue">Elérte a Zip várólista minimumát!</string>
@@ -658,7 +658,7 @@
 		<string name="no_real_sdcard">Ez az eszköz nem rendelkezik igazi SD-kártyával! Megszakítás!</string>
 		<string name="cancel_sideload">ADB sideload megszakítva...</string>
 		<string name="change_fs_err">Fájlrendszer módosítási hiba.</string>
-		<string name="theme_ver_err">Egyéni téma verziója nem egyezik a TWRP verziójával. Gyári téma használata.</string>
+		<string name="theme_ver_err">Egyéni téma verziója nem egyezik a ArtisanRP verziójával. Gyári téma használata.</string>
 		<string name="up_a_level">(Egy szinttel feljebb)</string>
 		<string name="install_reboot" version="2">Újraindítás %tw_sleep% mp múlva</string>
 		<string name="adbbackup_error">Hiba az ADB Backup során. Kilépés..."</string>
