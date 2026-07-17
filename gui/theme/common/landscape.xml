@@ -223,7 +223,7 @@
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
-				<text>{@twrp_header=Team Win Recovery Project}</text>
+				<text>{@twrp_header=Artisan Recovery Project}</text>
 			</text>
 
 			<text style="text_m">
@@ -460,7 +460,7 @@
 				<listitem name="{@skip_digest_zip_chk=Skip Digest check before installing zip}">
 					<data variable="tw_skip_digest_check_zip"/>
 				</listitem>
-				<listitem name="{@auto_reflashtwrp_chk=Automatically Reflash TWRP after flashing a ROM}">
+				<listitem name="{@auto_reflashtwrp_chk=Automatically Reflash ArtisanRP after flashing a ROM}">
 					<conditions>
 						<condition var1="tw_has_boot_slots" var2="1"/>
 						<condition var1="tw_no_flash_current_twrp" var2="0"/>
@@ -471,7 +471,7 @@
 				<listitem name="{@install_reboot_chk=Reboot after installation is complete}">
 					<data variable="tw_install_reboot"/>
 				</listitem>
-				<listitem name="{@inject_twrp_chk=Inject TWRP after install}">
+				<listitem name="{@inject_twrp_chk=Inject ArtisanRP after install}">
 					<condition var1="tw_has_injecttwrp" var2="1"/>
 					<data variable="tw_inject_after_zip"/>
 				</listitem>
@@ -3110,69 +3110,7 @@
 			</action>
 		</page>
 
-		<page name="installapp">
-			<template name="page"/>
-
-			<text style="text_l">
-				<placement x="%col1_x_header%" y="%row3_header_y%"/>
-				<text>%tw_appinstall_title%</text>
-			</text>
-
-			<text style="text_m">
-				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>{@reboot_install_app_hdr=Install TWRP App}</text>
-			</text>
-
-			<text style="text_m_accent">
-				<placement x="%center_x%" y="%row2_y%" placement="5"/>
-				<text>{@reboot_install_app1=Would you like to install the Official TWRP App?}</text>
-			</text>
-
-			<text style="text_m_accent">
-				<placement x="%center_x%" y="%row3_y%" placement="5"/>
-				<text>{@reboot_install_app2=The app can check for new TWRP versions.}</text>
-			</text>
-
-			<checkbox>
-				<condition var1="tw_mount_system_ro" var2="0"/>
-				<placement x="%indent%" y="%row7_y%"/>
-				<text>{@reboot_install_app_system=Install as a System App}</text>
-				<data variable="tw_app_install_system"/>
-			</checkbox>
-
-			<button style="main_button_half_width">
-				<placement x="%col2_x_left%" y="%row15a_y%"/>
-				<text>{@install_cancel=Do not Install}</text>
-				<action function="page">%tw_back%</action>
-			</button>
-
-			<slider>
-				<text>{@swipe_to_install_app=Swipe to Install TWRP App}</text>
-				<actions>
-					<action function="set">tw_action=installapp</action>
-					<action function="set">tw_action_text1={@reboot_installing_app=Installing App...}</action>
-					<action function="set">tw_action_text2=</action>
-					<action function="set">tw_complete_text1={@successful=Successful}</action>
-					<action function="page">action_page</action>
-				</actions>
-			</slider>
-
-			<action>
-				<touch key="home"/>
-				<actions>
-					<action function="set">tw_app_install_status=0</action>
-					<action function="page">main</action>
-				</actions>
-			</action>
-
-			<action>
-				<touch key="back"/>
-				<actions>
-					<action function="set">tw_app_install_status=0</action>
-					<action function="page">%tw_back%</action>
-				</actions>
-			</action>
-		</page>
+		<!-- Install ArtisanRP App page removed (ArtisanRP does not bundle a companion app) -->
 
 		<page name="system_readonly">
 			<template name="page"/>
@@ -3189,12 +3127,12 @@
 
 			<text style="text_m">
 				<placement x="%center_x%" y="%row4_y%" placement="5"/>
-				<text>{@sys_rol1=TWRP can leave your system partition unmodified to make it easier for you to take official updates.}</text>
+				<text>{@sys_rol1=ArtisanRP can leave your system partition unmodified to make it easier for you to take official updates.}</text>
 			</text>
 
 			<text style="text_m">
 				<placement x="%center_x%" y="%row5_y%" placement="5"/>
-				<text>{@sys_rol2=TWRP will be unable to prevent the stock ROM from replacing TWRP and will not offer to root your device.}</text>
+				<text>{@sys_rol2=ArtisanRP will be unable to prevent the stock ROM from replacing ArtisanRP and will not offer to root your device.}</text>
 			</text>
 
 			<text style="text_m_fail">
@@ -3295,7 +3233,7 @@
 				<listitem name="{@unmount_sys_install=Unmount System before installing a ZIP}">
 					<data variable="tw_unmount_system"/>
 				</listitem>
-				<listitem name="{@auto_reflashtwrp_chk=Automatically Reflash TWRP after flashing a ROM}">
+				<listitem name="{@auto_reflashtwrp_chk=Automatically Reflash ArtisanRP after flashing a ROM}">
 					<conditions>
 						<condition var1="tw_has_boot_slots" var2="1"/>
 						<condition var1="tw_no_flash_current_twrp" var2="0"/>
@@ -3741,7 +3679,7 @@
 
 			<listbox style="advanced_listbox">
 				<placement x="%center_x%" y="%row2_y%" w="%content_half_width%" h="%fileselector_install_height%"/>
-				<listitem name="{@change_twrp_folder_btn=Change TWRP folder}">
+				<listitem name="{@change_twrp_folder_btn=Change ArtisanRP folder}">
 					<condition var1="tw_is_decrypted" var2="1"/>
 					<action function="page">changeTwrpFolder</action>
 				</listitem>
@@ -3769,14 +3707,14 @@
 					<condition var1="tw_has_data_media" var2="1"/>
 					<action function="page">fixcontexts</action>
 				</listitem>
-				<listitem name="{@inject_twrp_btn=Inject TWRP}">
+				<listitem name="{@inject_twrp_btn=Inject ArtisanRP}">
 					<condition var1="tw_has_injecttwrp" var2="1"/>
 					<actions>
 						<action function="set">tw_back=advanced</action>
 						<action function="set">tw_action=reinjecttwrp</action>
-						<action function="set">tw_text1={@inject_twrp_confirm=Re-Inject TWRP?}</action>
-						<action function="set">tw_action_text1={@injecting_twrp=Re-Injecting TWRP...}</action>
-						<action function="set">tw_complete_text1={@inject_twrp_complete=TWRP Injection Complete}</action>
+						<action function="set">tw_text1={@inject_twrp_confirm=Re-Inject ArtisanRP?}</action>
+						<action function="set">tw_action_text1={@injecting_twrp=Re-Injecting ArtisanRP...}</action>
+						<action function="set">tw_complete_text1={@inject_twrp_complete=ArtisanRP Injection Complete}</action>
 						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
 						<action function="page">confirm_action</action>
 					</actions>
@@ -3792,7 +3730,7 @@
 						<action function="page">repackselect</action>
 					</actions>
 				</listitem>
-				<listitem name="{@reflash_twrp=Flash Current TWRP}">
+				<listitem name="{@reflash_twrp=Flash Current ArtisanRP}">
 					<conditions>
 						<condition var1="tw_has_boot_slots" var2="1"/>
 						<condition var1="tw_has_repack_tools" var2="1"/>
@@ -3803,9 +3741,9 @@
 						<action function="set">tw_repack_kernel=0</action>
 						<action function="set">tw_back=advanced</action>
 						<action function="set">tw_action=reflashtwrp</action>
-						<action function="set">tw_text1={@reflash_twrp_confirm=Flash Current TWRP?}</action>
-						<action function="set">tw_action_text1={@reflashing_twrp=Flashing TWRP...}</action>
-						<action function="set">tw_complete_text1={@reflash_twrp_complete=Done flashing TWRP}</action>
+						<action function="set">tw_text1={@reflash_twrp_confirm=Flash Current ArtisanRP?}</action>
+						<action function="set">tw_action_text1={@reflashing_twrp=Flashing ArtisanRP...}</action>
+						<action function="set">tw_complete_text1={@reflash_twrp_complete=Done flashing ArtisanRP}</action>
 						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
 						<action function="page">confirm_action</action>
 					</actions>
@@ -3836,26 +3774,7 @@
 						<action function="page">confirm_action</action>
 					</actions>
 				</listitem>
-				<listitem name="{@reboot_install_app_hdr=Install TWRP App}">
-					<condition var1="tw_app_install_status" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_appinstall_title={@advanced_hdr=Advanced}</action>
-						<action function="page">installapp</action>
-					</actions>
-				</listitem>
-				<listitem name="{@uninstall_twrp_system_app=Uninstall TWRP App from System}">
-					<condition var1="tw_app_installed_in_system" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_action=uninstalltwrpsystemapp</action>
-						<action function="set">tw_text1={@uninstall_twrp_system_app_confirm=Uninstall TWRP App from System?}</action>
-						<action function="set">tw_action_text1={@uninstalling_twrp_system_app=Uninstalling TWRP App from System...}</action>
-						<action function="set">tw_complete_text1={@uninstall_twrp_system_app_complete=Uninstall TWRP App from System Complete}</action>
-						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-						<action function="page">confirm_action</action>
-					</actions>
-				</listitem>
+				<!-- ArtisanRP app install/uninstall list items removed (ArtisanRP does not bundle a companion app) -->
 				<listitem name="{@unmap_super_devices=Unmap Super Devices}">
 					<condition var1="tw_is_super" op="=" var2="1"/>
 					<actions>
@@ -5950,7 +5869,7 @@ edi				<conditions>
 
 			<text style="text_m">
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>{@change_twrp_folder_btn=Change TWRP folder}</text>
+				<text>{@change_twrp_folder_btn=Change ArtisanRP folder}</text>
 			</text>
 
 			<text style="text_m_accent">
@@ -5969,8 +5888,8 @@ edi				<conditions>
 					<action function="set">tw_action_param=%tw_custom_folder%</action>
 					<action function="set">tw_text1={@confirm_action=Confirm}</action>
 					<action function="set">tw_text2={@rename_backup_confirm2=This cannot be undone!}</action>
-					<action function="set">tw_action_text1={@change_twrp_folder_on_process=Changing TWRP folder}</action>
-					<action function="set">tw_complete_text1={@change_twrp_folder_after_process=TWRP folder changed to} %tw_custom_folder%</action>
+					<action function="set">tw_action_text1={@change_twrp_folder_on_process=Changing ArtisanRP folder}</action>
+					<action function="set">tw_complete_text1={@change_twrp_folder_after_process=ArtisanRP folder changed to} %tw_custom_folder%</action>
 					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
 					<action function="set">tw_filecheck=/sdcard/%tw_custom_folder%</action>
 					<action function="set">tw_existpage=changeTwrpFolder</action>
@@ -6001,19 +5920,19 @@ edi				<conditions>
 			</button>
 
 			<button style="main_button_half_width_low">
-				<condition var1="tw_recovery_folder" op="!=" var2="/TWRP"/>
+				<condition var1="tw_recovery_folder" op="!=" var2="/ArtisanRP"/>
 				<placement x="%date_button_x%" y="%row5_y%"/>
 				<text>{@restore_defaults_btn=Restore Defaults}</text>
 				<actions>
 					<action function="set">tw_back=changeTwrpFolder</action>
 					<action function="set">tw_action=applycustomtwrpfolder</action>
-					<action function="set">tw_action_param=TWRP</action>
+					<action function="set">tw_action_param=ArtisanRP</action>
 					<action function="set">tw_text1={@confirm_action=Confirm}</action>
 					<action function="set">tw_text2={@rename_backup_confirm2=This cannot be undone!}</action>
-					<action function="set">tw_action_text1={@change_twrp_folder_on_process=Changing TWRP folder}</action>
-					<action function="set">tw_complete_text1={@change_twrp_folder_after_process=TWRP folder changed to} TWRP</action>
+					<action function="set">tw_action_text1={@change_twrp_folder_on_process=Changing ArtisanRP folder}</action>
+					<action function="set">tw_complete_text1={@change_twrp_folder_after_process=ArtisanRP folder changed to} ArtisanRP</action>
 					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-					<action function="set">tw_filecheck=/sdcard/TWRP</action>
+					<action function="set">tw_filecheck=/sdcard/ArtisanRP</action>
 					<action function="set">tw_existpage=changeTwrpFolder</action>
 					<action function="set">tw_notexistpage=confirm_action</action>
 					<action function="page">filecheck</action>

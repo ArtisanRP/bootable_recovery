@@ -119,14 +119,6 @@
 		<string name="rebooting">正在重新開機…</string>
 		<string name="swipe_reboot">滑動滑塊確認重新開機</string>
 		<string name="swipe_reboot_s">   重新開機</string>
-		<string name="reboot_install_app_hdr">安裝 ArtisanRP 應用程式？</string>
-		<string name="reboot_install_app1">您希望安裝官方 ArtisanRP 應用程式嗎？</string>
-		<string name="reboot_install_app2">該應用可幫您檢查 ArtisanRP 的最新版本。</string>
-		<string name="reboot_install_app_prompt_install">如果 ArtisanRP 應用程式未安裝時提示我</string>
-		<string name="reboot_install_app_system">安裝為系統應用程式</string>
-		<string name="reboot_installing_app">正在安裝應用程式…</string>
-		<string name="swipe_to_install_app">滑動滑塊以確認安裝</string>
-		<string name="uninstall_artisanrp_system_app">解除安裝 ArtisanRP 應用程式</string>
 		<string name="uninstall_artisanrp_system_app_confirm">確認解除安裝 ArtisanRP 應用程式？</string>
 		<string name="uninstalling_artisanrp_system_app">正在解除安裝 ArtisanRP 應用程式…</string>
 		<string name="uninstall_artisanrp_system_app_complete">解除安裝 ArtisanRP 應用程式完成</string>

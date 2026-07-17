@@ -33,7 +33,7 @@
 		<string name="autostorage">Pamięć</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Projekt Team Win Recovery</string>
+		<string name="twrp_header">Projekt Artisan Recovery</string>
 		<string name="twrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">Bateria: %tw_battery%</string>
@@ -119,18 +119,6 @@
 		<string name="rebooting">Restartowanie...</string>
 		<string name="swipe_reboot">Przesuń, aby zrestartować</string>
 		<string name="swipe_reboot_s">   Zrestartuj</string>
-		<string name="reboot_install_app_hdr">Zainstaluj aplikację ArtisanRP</string>
-		<string name="reboot_install_app1">Czy chcesz zainstalować oficjalną aplikację ArtisanRP?</string>
-		<string name="reboot_install_app2">Aplikacja może sprawdzać dostępność nowych wydań ArtisanRP.</string>
-		<string name="reboot_install_app_prompt_install">Informuj o możliwości instalacji aplikacji ArtisanRP, jeśli jej nie zainstalowano</string>
-		<string name="reboot_install_app_system">Zainstaluj jako systemową</string>
-		<string name="reboot_installing_app">Instalowanie aplikacji...</string>
-		<string name="swipe_to_install_app">Przesuń, aby zainstalować aplikację ArtisanRP</string>
-		<string name="uninstall_twrp_system_app">Odinstaluj aplikację ArtisanRP z systemu</string>
-		<string name="uninstall_twrp_system_app_confirm">Odinstalować aplikację ArtisanRP z systemu?</string>
-		<string name="uninstalling_twrp_system_app">Dezinstalacja aplikacji ArtisanRP z systemu...</string>
-		<string name="uninstall_twrp_system_app_complete">Dezinstalacja aplikacji ArtisanRP ukończona</string>
-		<string name="swipe_flash">Przesuń, aby zainstalować</string>
 		<string name="confirm_action">Potwierdź czynność</string>
 		<string name="back_cancel">Naciśnij wstecz, aby anulować.</string>
 		<string name="cancel_btn">Anuluj</string>

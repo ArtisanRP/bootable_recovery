@@ -491,7 +491,7 @@ int main(int argc, char **argv) {
 	PageManager::LoadLanguage(DataManager::GetStrValue("tw_language"));
 	GUIConsole::Translate_Now();
 
-	TWFunc::checkforapp(); //Checking compatibility for TWRP app
+	// TWRP app check removed (ArtisanRP does not bundle a companion app)
 
 	// Launch the main GUI
 	gui_start();

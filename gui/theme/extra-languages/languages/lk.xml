@@ -114,14 +114,6 @@
 		<string name="rebooting">Rebooting...</string>
 		<string name="swipe_reboot">Reboot කරන්න</string>
 		<string name="swipe_reboot_s">   Reboot කරන්න</string>
-		<string name="reboot_install_app_hdr">ArtisanRP App එක Install කරන්න</string>
-		<string name="reboot_install_app1">ඔයා Official ArtisanRP App එක Install කරන්න කැමතිද ?</string>
-		<string name="reboot_install_app2">App එ‍ෙකන් අභත් ArtisanRP versions ක‍රන්න Check පුභවන්.</string>
-		<string name="reboot_install_app_prompt_install">ArtisanRP app එක Install කරල නැත්තළ Install කරන්න</string>
-		<string name="reboot_install_app_system">System App එකක් ජදියට Install කරන්න</string>
-		<string name="reboot_installing_app">App එක Install කරන ගමන්...</string>
-		<string name="swipe_to_install_app">Install කරන්න.</string>
-		<string name="uninstall_artisanrp_system_app">ArtisanRP App එක System එ‍‍‍‍ෙකන් Uninstall කරන්න.</string>
 		<string name="uninstall_artisanrp_system_app_confirm">ArtisanRP App එක System එෙකන් Uninstall කරන්න ථනද?.</string>
 		<string name="uninstalling_artisanrp_system_app">ArtisanRP App එක System එ‍‍‍‍ෙකන් Uninstall කරන ගමන්...</string>
 		<string name="uninstall_artisanrp_system_app_complete">ArtisanRP App එක System එ‍‍‍‍ෙකන් Uninstall කරා.</string>
