@@ -17,10 +17,10 @@
 #ifndef _VARIABLES_HEADER_
 #define _VARIABLES_HEADER_
 
-#define TW_MAIN_VERSION_STR       "3.7.1_12"
+#define TW_MAIN_VERSION_STR       "1.0.0"
 #define TW_VERSION_STR TW_MAIN_VERSION_STR TW_DEVICE_VERSION
-#define TW_SETTINGS_FILE            ".twrps"
-#define TW_RECOVERY_NAME            "TWRP"
+#define TW_SETTINGS_FILE            ".artisanrps"
+#define TW_RECOVERY_NAME            "ArtisanRP"
 #define TW_DEFAULT_RECOVERY_FOLDER  "/" TW_RECOVERY_NAME
 #define TW_STORAGE_PATH             "/data/recovery/"
 #define TW_USE_COMPRESSION_VAR      "tw_use_compression"
@@ -66,7 +66,7 @@
 #define TW_VERIFY_DIGEST_TEXT       "tw_verify_digest_text"
 #define TW_UPDATE_SYSTEM_DETAILS_TEXT "tw_update_system_details_text"
 
-#define TW_VERSION_VAR              "tw_version"
+#define TW_VERSION_VAR              "artisanrp_version"
 #define TW_GUI_SORT_ORDER           "tw_gui_sort_order"
 #define TW_ZIP_LOCATION_VAR         "tw_zip_location"
 #define TW_ZIP_INTERNAL_VAR         "tw_zip_internal"
@@ -148,7 +148,7 @@
 #define TW_UNMOUNT_SYSTEM           "tw_unmount_system"
 #define TW_IS_SUPER                 "tw_is_super"
 #define TW_VIRTUAL_AB_ENABLED       "tw_virtual_ab.enabled"
-#define TW_AUTO_REFLASHTWRP_VAR     "tw_auto_reflashtwrp"
+#define TW_AUTO_REFLASHTWRP_VAR     "artisanrp_auto_reflash"
 
 // BUILD PROPS
 #define TW_FASTBOOT_MODE_PROP         "ro.twrp.fastbootd"

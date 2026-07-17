@@ -1257,7 +1257,7 @@ int TWFunc::stream_adb_backup(string &Restore_Name) {
 std::string TWFunc::get_log_dir() {
 	if (PartitionManager.Find_Partition_By_Path(CACHE_LOGS_DIR) == NULL) {
 		if (PartitionManager.Find_Partition_By_Path(DATA_LOGS_DIR) == NULL) {
-			LOGINFO("Unable to find a directory to store TWRP logs.");
+			LOGINFO("Unable to find a directory to store ArtisanRP logs.");
 			return "";
 		} else {
 			return DATA_LOGS_DIR;
@@ -1350,7 +1350,7 @@ void TWFunc::checkforapp(){
 		if (sdkver == 0)
 			LOGINFO("Unable to read sdk version from build prop\n");
 		else
-			LOGINFO("SDK version too low for TWRP app (%i < 14)\n", sdkver);
+			LOGINFO("SDK version too low for ArtisanRP app (%i < 14)\n", sdkver);
 		DataManager::SetValue("tw_app_install_status", 1); // 0 = no status, 1 = not installed, 2 = already installed or do not install
 		goto exit;
 	}
@@ -1461,7 +1461,7 @@ string TWFunc::Check_For_TwrpFolder() {
 		}
 		goto exit;
 	} else if (customTWRPFolders.empty()) {
-		LOGINFO("No custom recovery folder found. Using TWRP as default.\n");
+		LOGINFO("No custom recovery folder found. Using ArtisanRP as default.\n");
 		goto exit;
 	} else {
 		if (customTWRPFolders.size() > 1) {

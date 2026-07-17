@@ -32,7 +32,7 @@
 #include "../variables.h"
 
 void print_version(void) {
-	printf("TWRP openrecoveryscript command line tool, TWRP version %s\n\n", TW_VERSION_STR);
+	printf("ArtisanRP openrecoveryscript command line tool, ArtisanRP version %s\n\n", TW_VERSION_STR);
 }
 
 void print_usage(void) {
@@ -136,7 +136,7 @@ int main(int argc, char **argv) {
 
 	write_fd = open(ORS_INPUT_FILE, O_WRONLY);
 	if (write_fd < 0) {
-		printf("TWRP does not appear to be running. Waiting for TWRP to start . . .\n");
+		printf("ArtisanRP does not appear to be running. Waiting for ArtisanRP to start . . .\n");
 		printf("Press CTRL + C to quit.\n");
 		while (write_fd < 0)
 			write_fd = open(ORS_INPUT_FILE, O_WRONLY);

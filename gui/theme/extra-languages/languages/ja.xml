@@ -27,8 +27,8 @@
 		<string name="adopted_data">Adopted Data</string>
 		<string name="adopted_storage">Adopted Storage</string>
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="artisanrp_header">Artisan Recovery Project</string>
+		<string name="artisanrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% °C</string>
 		<string name="battery_pct">バッテリー: %tw_battery%</string>
 		<string name="sort_by_name">名前順で並び替え</string>
@@ -76,7 +76,7 @@
 		<string name="folder">フォルダ:</string>
 		<string name="file">ファイル:</string>
 		<string name="zip_sig_chk">ZIPの署名確認</string>
-		<string name="inject_twrp_chk">インストール後にTWRPを組み込む</string>
+		<string name="inject_artisanrp_chk">インストール後にArtisanRPを組み込む</string>
 		<string name="install_reboot_chk">インストール後に再起動する</string>
 		<string name="options_hdr">オプション</string>
 		<string name="confirm_flash_hdr">書き込みの確認</string>
@@ -271,14 +271,14 @@
 		<string name="swipe_power_off_s">電源を切る</string>
 		<string name="sys_ro_hdr">未変更の system パーティション</string>
 		<string name="sys_ro_keep">system を読み取り専用のままにしますか?</string>
-		<string name="sys_rop1">TWRP でsystemを編集しないようにして</string>
+		<string name="sys_rop1">ArtisanRP でsystemを編集しないようにして</string>
 		<string name="sys_rop2">公式なソフトウェア更新を適用しやすくできます。</string>
-		<string name="sys_rop3">TWRP は stock ROM が TWRP を取り除くのを防げず</string>
+		<string name="sys_rop3">ArtisanRP は stock ROM が ArtisanRP を取り除くのを防げず</string>
 		<string name="sys_rop4">root化することもできません。</string>
 		<string name="sys_rop5">ZIPをインストールしたりadbで操作したりすると</string>
 		<string name="sys_rop6">system パーティションが編集される可能性があります。</string>
-		<string name="sys_rol1">公式なソフトウェア更新を適用しやすくするため、TWRP は system パーティションを編集しないようにできます。</string>
-		<string name="sys_rol2">TWRP は stock ROM が TWRP を取り除くことを防げず、root化する事もできません。</string>
+		<string name="sys_rol1">公式なソフトウェア更新を適用しやすくするため、ArtisanRP は system パーティションを編集しないようにできます。</string>
+		<string name="sys_rol2">ArtisanRP は stock ROM が ArtisanRP を取り除くことを防げず、root化する事もできません。</string>
 		<string name="sys_rol3">ZIPのインストールや adb での操作で system が編集される可能性があります。</string>
 		<string name="sys_ro_never_show_chk">起動時にこの画面を二度と表示しない</string>
 		<string name="sys_ro_keep_ro_btn">読み取り専用のままにする</string>
@@ -369,10 +369,10 @@
 		<string name="language_hdr">言語</string>
 		<string name="terminal_btn">ターミナル</string>
 		<string name="reload_theme_btn">テーマの再読み込み</string>
-		<string name="inject_twrp_btn">TWRP の組み込み</string>
-		<string name="inject_twrp_confirm">TWRP を再度組み込みますか?</string>
-		<string name="injecting_twrp">TWRP を組み込み中...</string>
-		<string name="inject_twrp_complete">TWRP を組み込みました</string>
+		<string name="inject_artisanrp_btn">ArtisanRP の組み込み</string>
+		<string name="inject_artisanrp_confirm">ArtisanRP を再度組み込みますか?</string>
+		<string name="injecting_artisanrp">ArtisanRP を組み込み中...</string>
+		<string name="inject_artisanrp_complete">ArtisanRP を組み込みました</string>
 		<string name="swipe_to_confirm">スワイプで確認</string>
 		<string name="part_sd_hdr">SDカードの分割</string>
 		<string name="invalid_partsd_sel">リムーバブルデバイスを選択してください</string>
@@ -583,7 +583,7 @@
 		<string name="need_new_adb">Sideload 機能を使うには、adb 1.0.32 以降が必要です。</string>
 		<string name="no_pwd">パスワードが指定されていません。</string>
 		<string name="done_ors">スクリプトファイルの処理が完了しました</string>
-		<string name="injecttwrp">boot イメージに TWRP を組み込み中...</string>
+		<string name="injectartisanrp">boot イメージに ArtisanRP を組み込み中...</string>
 		<string name="zip_err">ZIPファイル \'{1}\' のインストール中にエラーが発生しました</string>
 		<string name="installing_zip">ZIP ファイル \'{1}\' をインストール中</string>
 		<string name="select_backup_opt">バックアップオプションの設定中:</string>
@@ -608,7 +608,7 @@
 		<string name="pid_signal">{1} プロセスはこのシグナルで終了しました: {2}</string>
 		<string name="pid_error">{1} プロセスはこのエラーで終了しました: {2}</string>
 		<string name="run_script">{1} スクリプトを実行しています...</string>
-		<string name="rename_stock">stock ROM が TWRP を置き換えるのを防ぐため、 /system の stock リカバリファイルの名前を変更しました。</string>
+		<string name="rename_stock">stock ROM が ArtisanRP を置き換えるのを防ぐため、 /system の stock リカバリファイルの名前を変更しました。</string>
 		<string name="split_backup">バックアップファイルを複数の書庫に分割中...</string>
 		<string name="backup_error">バックアップの作成中にエラーが発生しました。</string>
 		<string name="restore_error">リストア処理中にエラーが発生しました。</string>
@@ -620,8 +620,8 @@
 		<string name="base_pkg_err">基本パッケージの読み込みに失敗しました。</string>
 		<string name="simulating">アクションのシミュレート中...</string>
 		<string name="backup_cancel">バックアップをキャンセルしました</string>
-		<string name="config_twrp">TWRP を設定中...</string>
-		<string name="config_twrp_err">このカーネルで TWRP を設定できません。</string>
+		<string name="config_artisanrp">ArtisanRP を設定中...</string>
+		<string name="config_artisanrp_err">このカーネルで ArtisanRP を設定できません。</string>
 		<string name="copy_log">リカバリログを {1} にコピーしました。</string>
 		<string name="max_queue">ZIP キューの上限に達しました!</string>
 		<string name="min_queue">ZIP キューの下限に達しました!</string>
@@ -637,7 +637,7 @@
 		<string name="no_real_sdcard">この機器には実際の SD カードがありません! 中止します!</string>
 		<string name="cancel_sideload">ADB sideload を中止中...</string>
 		<string name="change_fs_err">ファイルシステムの変更中にエラーが発生しました。</string>
-		<string name="theme_ver_err">カスタムテーマのバージョンが TWRP のバージョンと一致しません。標準のテーマを使用します。</string>
+		<string name="theme_ver_err">カスタムテーマのバージョンが ArtisanRP のバージョンと一致しません。標準のテーマを使用します。</string>
 		<string name="up_a_level">(上の階層へ)</string>
 		<string name="install_reboot">5秒後に再起動します</string>
 	</resources>

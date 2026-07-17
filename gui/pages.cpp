@@ -1512,11 +1512,11 @@ int PageManager::RunReload() {
 	}
 
 	theme_path += "theme/ui.zip";
-	if (ret_val != 0 || ReloadPackage("TWRP", theme_path) != 0)
+	if (ret_val != 0 || ReloadPackage("ArtisanRP", theme_path) != 0)
 	{
 		// Loading the custom theme failed - try loading the stock theme
 		LOGINFO("Attempting to reload stock theme...\n");
-		if (ReloadPackage("TWRP", TWRES "ui.xml"))
+		if (ReloadPackage("ArtisanRP", TWRES "ui.xml"))
 		{
 			LOGERR("Failed to load base packages.\n");
 			ret_val = 1;

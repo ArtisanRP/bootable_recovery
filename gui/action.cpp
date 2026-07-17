@@ -416,12 +416,12 @@ int GUIAction::flash_zip(std::string filename, int* wipe_cache)
 		struct stat st;
 		if (stat("/system/bin/installTwrp", &st) == 0)
 		{
-			DataManager::SetValue("tw_operation", "Configuring TWRP");
+			DataManager::SetValue("tw_operation", "Configuring ArtisanRP");
 			DataManager::SetValue("tw_partition", "");
-			gui_msg("config_twrp=Configuring TWRP...");
+			gui_msg("config_twrp=Configuring ArtisanRP...");
 			if (TWFunc::Exec_Cmd("/system/bin/installTwrp reinstall") < 0)
 			{
-				gui_msg("config_twrp_err=Unable to configure TWRP with this kernel.");
+				gui_msg("config_twrp_err=Unable to configure ArtisanRP with this kernel.");
 			}
 		}
 	}
@@ -1215,12 +1215,12 @@ int GUIAction::wipe(std::string arg)
 			string Storage_Path = DataManager::GetSettingsStoragePath();
 
 			if (PartitionManager.Mount_By_Path(Storage_Path, true)) {
-				LOGINFO("Making TWRP folder and saving settings.\n");
-				Storage_Path += "/TWRP";
+				LOGINFO("Making ArtisanRP folder and saving settings.\n");
+				Storage_Path += "/ArtisanRP";
 				mkdir(Storage_Path.c_str(), 0777);
 				DataManager::Flush();
 			} else {
-				LOGERR("Unable to recreate TWRP folder and save settings.\n");
+				LOGERR("Unable to recreate ArtisanRP folder and save settings.\n");
 			}
 		}
 #endif
@@ -1648,7 +1648,7 @@ int GUIAction::installsu(std::string arg __unused)
 	if (simulate) {
 		simulate_progress_bar();
 	} else {
-		LOGERR("Installing SuperSU was deprecated from TWRP.\n");
+		LOGERR("Installing SuperSU was deprecated from ArtisanRP.\n");
 	}
 
 	operation_end(op_status);
@@ -1663,7 +1663,7 @@ int GUIAction::fixsu(std::string arg __unused)
 	if (simulate) {
 		simulate_progress_bar();
 	} else {
-		LOGERR("Fixing su permissions was deprecated from TWRP.\n");
+		LOGERR("Fixing su permissions was deprecated from ArtisanRP.\n");
 		LOGERR("4.3+ ROMs with SELinux will always lose su perms.\n");
 	}
 
@@ -1832,7 +1832,7 @@ int GUIAction::flashimage(std::string arg __unused)
 
 int GUIAction::twcmd(std::string arg)
 {
-	operation_start("TWRP CLI Command");
+	operation_start("ArtisanRP CLI Command");
 	if (simulate)
 		simulate_progress_bar();
 	else
@@ -1969,7 +1969,7 @@ int GUIAction::setbootslot(std::string arg)
 
 int GUIAction::checkforapp(std::string arg __unused)
 {
-	operation_start("Check for TWRP App");
+	operation_start("Check for ArtisanRP App");
 	if (!simulate)
 	{
 		TWFunc::checkforapp();
@@ -1983,7 +1983,7 @@ int GUIAction::checkforapp(std::string arg __unused)
 int GUIAction::installapp(std::string arg __unused)
 {
 	int op_status = 1;
-	operation_start("Install TWRP App");
+	operation_start("Install ArtisanRP App");
 	if (!simulate)
 	{
 		if (DataManager::GetIntValue("tw_mount_system_ro") > 0 || DataManager::GetIntValue("tw_app_install_system") == 0) {
@@ -2096,7 +2096,7 @@ exit:
 int GUIAction::uninstalltwrpsystemapp(std::string arg __unused)
 {
 	int op_status = 1;
-	operation_start("Uninstall TWRP System App");
+	operation_start("Uninstall ArtisanRP System App");
 	if (!simulate)
 	{
 		int Mount_System_RO = DataManager::GetIntValue("tw_mount_system_ro");
@@ -2128,10 +2128,10 @@ int GUIAction::uninstalltwrpsystemapp(std::string arg __unused)
 					DataManager::SetValue("tw_app_installed_in_system", 0);
 					DataManager::SetValue("tw_app_install_status", 0);
 				} else {
-					LOGERR("Unable to remove TWRP app from system.\n");
+					LOGERR("Unable to remove ArtisanRP app from system.\n");
 				}
 			} else {
-				LOGINFO("didn't find TWRP app in '%s'\n", uninstall_path.c_str());
+				LOGINFO("didn't find ArtisanRP app in '%s'\n", uninstall_path.c_str());
 			}
 		}
 		Part->UnMount(true);
@@ -2200,7 +2200,7 @@ int GUIAction::fixabrecoverybootloop(std::string arg __unused)
 	if (!simulate)
 	{
 		if (!TWFunc::Path_Exists("/system/bin/magiskboot")) {
-			LOGERR("Image repacking tool not present in this TWRP build!");
+			LOGERR("Image repacking tool not present in this ArtisanRP build!");
 			goto exit;
 		}
 		DataManager::SetProgress(0);
@@ -2331,7 +2331,7 @@ int GUIAction::editfile(std::string arg) {
 
 int GUIAction::applycustomtwrpfolder(string arg __unused)
 {
-	operation_start("ChangingTWRPFolder");
+	operation_start("ChangingArtisanRPFolder");
 	string storageFolder = DataManager::GetCurrentStoragePath();
 	string newFolder = storageFolder + '/' + arg;
 	string newBackupFolder = newFolder + "/BACKUPS/" + DataManager::GetStrValue("device_id");

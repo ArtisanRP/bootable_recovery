@@ -132,7 +132,7 @@ bool twrpAdbBuFifo::Backup_ADB_Command(std::string Options) {
 		else {
 			gui_msg(Msg(msg::kError, "partition_not_found=path: {1} not found in partition list")(path));
 			if (!twadbbu::Write_TWERROR())
-				LOGERR("Unable to write to TWRP ADB Backup.\n");
+				LOGERR("Unable to write to ArtisanRP ADB Backup.\n");
 		return false;
 	}
 }
@@ -310,7 +310,7 @@ bool twrpAdbBuFifo::Restore_ADB_Backup(void) {
 					if (path.compare(PartitionManager.Get_Android_Root_Path()) == 0) {
 						if (part_settings.Part->Is_Read_Only()) {
 							if (!twadbbu::Write_TWERROR())
-								LOGERR("Unable to write to TWRP ADB Backup.\n");
+								LOGERR("Unable to write to ArtisanRP ADB Backup.\n");
 							gui_msg(Msg(msg::kError, "restore_read_only=Cannot restore {1} -- mounted read only.")(part_settings.Part->Backup_Display_Name));
 							ret = false;
 							break;

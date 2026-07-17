@@ -791,7 +791,7 @@ extern "C" int gui_loadResources(void)
 	DataManager::GetValue(TW_IS_ENCRYPTED, check);
 	if (check)
 	{
-		if (PageManager::LoadPackage("TWRP", TWRES "ui.xml", "decrypt"))
+		if (PageManager::LoadPackage("ArtisanRP", TWRES "ui.xml", "decrypt"))
 		{
 			gui_err("base_pkg_err=Failed to load base packages.");
 			goto error;
@@ -822,10 +822,10 @@ extern "C" int gui_loadResources(void)
 		}
 
 		theme_path += "theme/ui.zip";
-		if (check || PageManager::LoadPackage("TWRP", theme_path, "main"))
+		if (check || PageManager::LoadPackage("ArtisanRP", theme_path, "main"))
 		{
 #endif // ifndef TW_OEM_BUILD
-			if (PageManager::LoadPackage("TWRP", TWRES "ui.xml", "main"))
+			if (PageManager::LoadPackage("ArtisanRP", TWRES "ui.xml", "main"))
 			{
 				gui_err("base_pkg_err=Failed to load base packages.");
 				goto error;
@@ -835,7 +835,7 @@ extern "C" int gui_loadResources(void)
 	}
 #endif // ifndef TW_OEM_BUILD
 	// Set the default package
-	PageManager::SelectPackage("TWRP");
+	PageManager::SelectPackage("ArtisanRP");
 
 	gGuiInitialized = 1;
 	return 0;
@@ -859,16 +859,16 @@ extern "C" int gui_loadCustomResources(void)
 	// Check for a custom theme
 	if (TWFunc::Path_Exists(theme_path)) {
 		// There is a custom theme, try to load it
-		if (PageManager::ReloadPackage("TWRP", theme_path)) {
+		if (PageManager::ReloadPackage("ArtisanRP", theme_path)) {
 			// Custom theme failed to load, try to load stock theme
-			if (PageManager::ReloadPackage("TWRP", TWRES "ui.xml")) {
+			if (PageManager::ReloadPackage("ArtisanRP", TWRES "ui.xml")) {
 				gui_err("base_pkg_err=Failed to load base packages.");
 				goto error;
 			}
 		}
 	}
 	// Set the default package
-	PageManager::SelectPackage("TWRP");
+	PageManager::SelectPackage("ArtisanRP");
 #endif
 	return 0;
 
@@ -891,7 +891,7 @@ extern "C" int gui_startPage(const char *page_name, __attribute__((unused)) cons
 		return -1;
 
 	// Set the default package
-	PageManager::SelectPackage("TWRP");
+	PageManager::SelectPackage("ArtisanRP");
 
 	input_handler.init();
 #ifndef TW_OEM_BUILD

@@ -617,7 +617,7 @@ void TWPartitionManager::Decrypt_Data() {
 				LOGINFO("Unable to decrypt metadata encryption\n");
 			}
 #else
-			LOGERR("Metadata FBE decrypt support not present in this TWRP\n");
+			LOGERR("Metadata FBE decrypt support not present in this ArtisanRP\n");
 #endif
 		}
 		if (Decrypt_Data->Is_FBE) {
@@ -2555,7 +2555,7 @@ int TWPartitionManager::Partition_SDCard(void) {
 
 	// recreate TWRP folder and rewrite settings - these will be gone after sdcard is partitioned
 	if (SDCard->Mount(true)) {
-		string TWRP_Folder = SDCard->Mount_Point + "/TWRP";
+		string TWRP_Folder = SDCard->Mount_Point + "/ArtisanRP";
 		mkdir(TWRP_Folder.c_str(), 0777);
 		DataManager::Flush();
 	}

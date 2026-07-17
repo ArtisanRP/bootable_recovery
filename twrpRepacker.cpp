@@ -124,7 +124,7 @@ static bool is_AB_for_repacker() {
 
 bool twrpRepacker::Repack_Image_And_Flash(const std::string& Target_Image, const struct Repack_Options_struct& Repack_Options) {
 	if (!TWFunc::Path_Exists("/system/bin/magiskboot")) {
-		LOGERR("Image repacking tool not present in this TWRP build!");
+		LOGERR("Image repacking tool not present in this ArtisanRP build!");
 		return false;
 	}
 

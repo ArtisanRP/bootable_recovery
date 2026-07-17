@@ -24,7 +24,7 @@
 #define TW_ADB_RESTORE "/tmp/twadbrestore"		//FIFO for adb restore
 #define TW_ADB_BU_CONTROL "/tmp/twadbbucontrol"		//FIFO for sending control from TWRP to ADB Backup
 #define TW_ADB_TWRP_CONTROL "/tmp/twadbtwrpcontrol"	//FIFO for sending control from ADB Backup to TWRP
-#define TWRP "TWRP"					//Magic Value
+#define TWRP "ArtisanRP"					//Magic Value
 #define ADB_BU_MAX_ERROR 20				//Max amount of errors for while loops
 #define ADB_BACKUP_OP "adbbackup"
 #define ADB_RESTORE_OP "adbrestore"

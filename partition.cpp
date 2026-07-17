@@ -814,7 +814,7 @@ bool TWPartition::Decrypt_FBE_DE() {
 		string filename;
 		int pwd_type = android::keystore::Get_Password_Type(0, filename);
 		if (pwd_type < 0) {
-			LOGERR("This TWRP does not have synthetic password decrypt support\n");
+			LOGERR("This ArtisanRP does not have synthetic password decrypt support\n");
 			pwd_type = 0;  // default password
 		}
 		PartitionManager.Parse_Users();  // after load_all_de_keys() to parse_users
@@ -836,7 +836,7 @@ bool TWPartition::Decrypt_FBE_DE() {
 		return true;
 	}
 #else
-		LOGERR("FBE found but FBE support not present in TWRP\n");
+		LOGERR("FBE found but FBE support not present in ArtisanRP\n");
 #endif
 	}
 	DataManager::SetValue(TW_IS_FBE, 0);
@@ -1818,7 +1818,7 @@ bool TWPartition::Wipe(string New_File_System) {
 		if (Mount_Point == "/data" && TWFunc::get_log_dir() == DATA_LOGS_DIR) {
 			bool created = PartitionManager.Recreate_Logs_Dir();
 			if (!created)
-				LOGERR("Unable to create log directory for TWRP\n");
+				LOGERR("Unable to create log directory for ArtisanRP\n");
 		}
 		recreate_media = false;
 	} else {
@@ -2188,7 +2188,7 @@ bool TWPartition::Wipe_Encryption() {
 		gui_msg("format_data_msg=You may need to reboot recovery to be able to use /data again.");
 #endif
 		if (Is_FBE) {
-			gui_msg(Msg(msg::kWarning, "data_media_fbe_msg=TWRP will not recreate /data/media on an FBE device. Please reboot into your rom to create /data/media."));
+			gui_msg(Msg(msg::kWarning, "data_media_fbe_msg=ArtisanRP will not recreate /data/media on an FBE device. Please reboot into your rom to create /data/media."));
 		} else {
 			if (Has_Data_Media && !Symlink_Mount_Point.empty()) {
 				if (Mount(false))

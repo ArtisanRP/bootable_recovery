@@ -33,8 +33,8 @@
 		<string name="autostorage">儲存空間</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
-		<string name="twrp_watch_header">TWRP %tw_version%</string>
+		<string name="artisanrp_header">Artisan Recovery Project</string>
+		<string name="artisanrp_watch_header">ArtisanRP %tw_version%</string>
 		<string name="cpu_temp">溫度: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">電量: %tw_battery%</string>
 		<string name="sort_by_name">按名稱排序</string>
@@ -83,7 +83,7 @@
 		<string name="folder">目錄：</string>
 		<string name="file">檔案：</string>
 		<string name="zip_sig_chk">Zip 刷機包簽名校驗</string>
-		<string name="inject_twrp_chk">安裝完成後注入 TWRP</string>
+		<string name="inject_artisanrp_chk">安裝完成後注入 ArtisanRP</string>
 		<string name="install_reboot_chk">安裝完成後重新開機</string>
 		<string name="options_hdr">選項</string>
 		<string name="confirm_flash_hdr">確認刷入</string>
@@ -119,17 +119,17 @@
 		<string name="rebooting">正在重新開機…</string>
 		<string name="swipe_reboot">滑動滑塊確認重新開機</string>
 		<string name="swipe_reboot_s">   重新開機</string>
-		<string name="reboot_install_app_hdr">安裝 TWRP 應用程式？</string>
-		<string name="reboot_install_app1">您希望安裝官方 TWRP 應用程式嗎？</string>
-		<string name="reboot_install_app2">該應用可幫您檢查 TWRP 的最新版本。</string>
-		<string name="reboot_install_app_prompt_install">如果 TWRP 應用程式未安裝時提示我</string>
+		<string name="reboot_install_app_hdr">安裝 ArtisanRP 應用程式？</string>
+		<string name="reboot_install_app1">您希望安裝官方 ArtisanRP 應用程式嗎？</string>
+		<string name="reboot_install_app2">該應用可幫您檢查 ArtisanRP 的最新版本。</string>
+		<string name="reboot_install_app_prompt_install">如果 ArtisanRP 應用程式未安裝時提示我</string>
 		<string name="reboot_install_app_system">安裝為系統應用程式</string>
 		<string name="reboot_installing_app">正在安裝應用程式…</string>
 		<string name="swipe_to_install_app">滑動滑塊以確認安裝</string>
-		<string name="uninstall_twrp_system_app">解除安裝 TWRP 應用程式</string>
-		<string name="uninstall_twrp_system_app_confirm">確認解除安裝 TWRP 應用程式？</string>
-		<string name="uninstalling_twrp_system_app">正在解除安裝 TWRP 應用程式…</string>
-		<string name="uninstall_twrp_system_app_complete">解除安裝 TWRP 應用程式完成</string>
+		<string name="uninstall_artisanrp_system_app">解除安裝 ArtisanRP 應用程式</string>
+		<string name="uninstall_artisanrp_system_app_confirm">確認解除安裝 ArtisanRP 應用程式？</string>
+		<string name="uninstalling_artisanrp_system_app">正在解除安裝 ArtisanRP 應用程式…</string>
+		<string name="uninstall_artisanrp_system_app_complete">解除安裝 ArtisanRP 應用程式完成</string>
 		<string name="swipe_flash">滑動滑塊以確認刷入</string>
 		<string name="confirm_action">確認操作</string>
 		<string name="back_cancel">按返回按鈕取消。</string>
@@ -298,14 +298,14 @@
 		<string name="swipe_power_off_s">關機</string>
 		<string name="sys_ro_hdr">未修改的 System 分割區</string>
 		<string name="sys_ro_keep">是否保持系統分割區為只讀？</string>
-		<string name="sys_rop1">TWRP 可以保持系統分割區未修改狀態</string>
+		<string name="sys_rop1">ArtisanRP 可以保持系統分割區未修改狀態</string>
 		<string name="sys_rop2">使您更容易獲得官方的更新。</string>
-		<string name="sys_rop3">TWRP 將無法禁止原廠韌體可能</string>
-		<string name="sys_rop4">替換 TWRP 並且不能 Root 您的設備。</string>
+		<string name="sys_rop3">ArtisanRP 將無法禁止原廠韌體可能</string>
+		<string name="sys_rop4">替換 ArtisanRP 並且不能 Root 您的設備。</string>
 		<string name="sys_rop5">安裝刷機包或者通過 adb 操作依然可以</string>
 		<string name="sys_rop6">修改系統分割區。</string>
-		<string name="sys_rol1">TWRP 可以保持系統分割區為未修改狀態，使您更容易獲得官方的更新。</string>
-		<string name="sys_rol2">TWRP 將無法禁止原廠韌體替換 TWRP，並且不能 Root 您的設備。</string>
+		<string name="sys_rol1">ArtisanRP 可以保持系統分割區為未修改狀態，使您更容易獲得官方的更新。</string>
+		<string name="sys_rol2">ArtisanRP 將無法禁止原廠韌體替換 ArtisanRP，並且不能 Root 您的設備。</string>
 		<string name="sys_rol3">安裝刷機包或者通過 adb 操作依然可以修改系統分割區。</string>
 		<string name="sys_ro_never_show_chk">下次啟動時不再顯示此介面</string>
 		<string name="sys_ro_keep_ro_btn">保持只讀</string>
@@ -397,10 +397,10 @@
 		<string name="language_hdr">語言</string>
 		<string name="terminal_btn">終端指令</string>
 		<string name="reload_theme_btn">重載主題</string>
-		<string name="inject_twrp_btn">注入 TWRP</string>
-		<string name="inject_twrp_confirm">是否重新注入 TWRP？</string>
-		<string name="injecting_twrp">正在重新注入 TWRP…</string>
-		<string name="inject_twrp_complete">TWRP 注入完成</string>
+		<string name="inject_artisanrp_btn">注入 ArtisanRP</string>
+		<string name="inject_artisanrp_confirm">是否重新注入 ArtisanRP？</string>
+		<string name="injecting_artisanrp">正在重新注入 ArtisanRP…</string>
+		<string name="inject_artisanrp_complete">ArtisanRP 注入完成</string>
 		<string name="swipe_to_confirm">滑動滑塊確認</string>
 		<string name="part_sd_hdr">SD 卡分割區</string>
 		<string name="invalid_partsd_sel">您必須選擇一個可移動設備</string>
@@ -476,7 +476,7 @@
 		<string name="install_cancel">不，以後再說</string>
 		<string name="sel_storage_list">選擇儲存位置</string>
 		<string name="ok_btn">確定</string>
-		<string name="install_twrp_ramdisk">安裝 Recovery Ramdisk</string>
+		<string name="install_artisanrp_ramdisk">安裝 Recovery Ramdisk</string>
 		<string name="install_kernel">安裝 Kernel </string>
 		<string name="repack_kernel_confirm_hdr">安裝 Kernel </string>
 		<string name="repack_ramdisk_confirm_hdr">安裝 Recovery</string>
@@ -651,7 +651,7 @@
 		<string name="need_new_adb">您需要 1.0.32 或更高版本的 adb 才可以使用。</string>
 		<string name="no_pwd">未提供密碼。</string>
 		<string name="done_ors">腳本執行完畢</string>
-		<string name="injecttwrp">正在注入 TWRP 到 Boot 映像…</string>
+		<string name="injectartisanrp">正在注入 ArtisanRP 到 Boot 映像…</string>
 		<string name="zip_err">安裝 Zip 刷機包“{1}”時出錯</string>
 		<string name="installing_zip">正在安裝 Zip 刷機包“{1}”</string>
 		<string name="select_backup_opt">設定備份選項：</string>
@@ -676,7 +676,7 @@
 		<string name="pid_signal">{1} 過程結束，標誌: {2}</string>
 		<string name="pid_error">{1} 過程結束，錯誤: {2}</string>
 		<string name="run_script">正在執行 {1} 腳本…</string>
-		<string name="rename_stock">重新命名/system 下原廠 Recovery 的補丁，避免原廠韌體替換 TWRP。</string>
+		<string name="rename_stock">重新命名/system 下原廠 Recovery 的補丁，避免原廠韌體替換 ArtisanRP。</string>
 		<string name="split_backup">拆分備份檔案為多個壓縮檔…</string>
 		<string name="backup_error">建立備份失敗。</string>
 		<string name="restore_error">在恢復過程中發生錯誤。</string>
@@ -688,8 +688,8 @@
 		<string name="base_pkg_err">無法載入基本包。</string>
 		<string name="simulating">正在模擬操作…</string>
 		<string name="backup_cancel">備份已取消。</string>
-		<string name="config_twrp">正在配置 TWRP…</string>
-		<string name="config_twrp_err">此 Kernel 無法配置 TWRP。</string>
+		<string name="config_artisanrp">正在配置 ArtisanRP…</string>
+		<string name="config_artisanrp_err">此 Kernel 無法配置 ArtisanRP。</string>
 		<string name="copy_log">已經匯出 Recovery 日誌到 {1}。</string>
 		<string name="max_queue">已達到最大刷機包刷入佇列！</string>
 		<string name="min_queue">已達到最大刷機包刷入佇列！</string>
@@ -705,12 +705,12 @@
 		<string name="no_real_sdcard">此設備沒有真實的 SD 卡！正在中止！</string>
 		<string name="cancel_sideload">取消 ADB Sideload…</string>
 		<string name="change_fs_err">更換檔案系統時出錯。</string>
-		<string name="theme_ver_err">自訂主題和 TWRP 版本不匹配，正使用預設主題。</string>
+		<string name="theme_ver_err">自訂主題和 ArtisanRP 版本不匹配，正使用預設主題。</string>
 		<string name="up_a_level">（上級目錄）</string>
 		<string name="install_reboot" version="2">將會在 %tw_sleep% 秒內重新開機</string>
 		<string name="adbbackup_error">ADB 備份錯誤。正在退出…"</string>
 		<string name="adbbackup_control_error">無法寫入 adb 控制通道</string>
-		<string name="twrp_adbbu_option">啟用 TWRP ADB 備份需使用 --twrp 選項</string>
+		<string name="artisanrp_adbbu_option">啟用 ArtisanRP ADB 備份需使用 --artisanrp 選項</string>
 		<string name="partition_not_found">分割區列表中未發現路徑: {1}</string>
 		<string name="copy_kernel_log">已匯出 Kernel 日誌至 {1}</string>
 		<string name="include_kernel_log">包含 Kernel 日誌</string>
